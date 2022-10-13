@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_substations>
+  <Substation id="" name="SS Beograd 5">
+    <Type>SS 220/110 kV</Type>
+  <InstalledCapacity>250</InstalledCapacity>
+  <Unom_kV>250</Unom_kV>
+  <Umin_kV>250</Umin_kV>
+  <Umax_kV>250</Umax_kV>
+  <Pg_MW>250</Pg_MW>
+  <Qg_MVAr>250</Qg_MVAr>
+  <Pload_MW>400</Pload_MW>
+  <Qload_MVAr>250</Qload_MVAr>
+  <U_kV>250</U_kV>
+  <Theta>250</Theta>
+  <Branch Status="Off" neighb_node_id="" type="Transformer" />
+  <Branch Status="On" neighb_node_id="" type="Transformer" />
+  <Branch Status="Off" neighb_node_id="" type="OHL" />
+  <Branch Status="Off" neighb_node_id="" type="HVDC" />
+  <Branch Status="Off" neighb_node_id="" type="Transformer" />
+  <wWindSpeed>23</wWindSpeed>
+  <wSolarRadiation>1900</wSolarRadiation>
+  <wTemperature>34</wTemperature>
+  <wCloudiness>25</wCloudiness>
+  <wPrecipitations>30</wPrecipitations>
+  <wInflows>2400</wInflows>
+  <wIceAlarm>NO</wIceAlarm>
+  <wStormsAlarm>NO</wStormsAlarm>
+  <GPS Altitude="275" Latitude="20.385737" Longitude="44.821827" />
+  <GPS Altitude="275" Latitude="20.386519" Longitude="44.823492" />
+  <GPS Altitude="275" Latitude="20.383021" Longitude="44.824255" />
+  <GPS Altitude="275" Latitude="20.382731" Longitude="44.823527" />
+  <GPS Altitude="275" Latitude="20.381915" Longitude="44.823659" />
+  <GPS Altitude="275" Latitude="20.381584" Longitude="44.822875" />
+  <GPS Altitude="275" Latitude="20.385737" Longitude="44.821827" />
+  </Substation>
+<Substation id="" name="SS Obrenovac">
+    <Type>SS 400/220/110 kV</Type>
+  <InstalledCapacity>250</InstalledCapacity>
+  <Unom_kV>250</Unom_kV>
+  <Umin_kV>250</Umin_kV>
+  <Umax_kV>250</Umax_kV>
+  <Pg_MW>250</Pg_MW>
+  <Qg_MVAr>250</Qg_MVAr>
+  <Pload_MW>250</Pload_MW>
+  <Qload_MVAr>250</Qload_MVAr>
+  <U_kV>250</U_kV>
+  <Theta>250</Theta>
+  <Branch Status="Off" neighb_node_id="" type="Transformer" />
+  <Branch Status="On" neighb_node_id="" type="Transformer" />
+  <Branch Status="Off" neighb_node_id="" type="OHL" />
+  <Branch Status="Off" neighb_node_id="" type="HVDC" />
+  <Branch Status="Off" neighb_node_id="" type="Transformer" />
+  <wWindSpeed>23</wWindSpeed>
+  <wSolarRadiation>1900</wSolarRadiation>
+  <wTemperature>34</wTemperature>
+  <wCloudiness>25</wCloudiness>
+  <wPrecipitations>30</wPrecipitations>
+  <wInflows>2400</wInflows>
+  <wIceAlarm>Yes</wIceAlarm>
+  <wStormsAlarm>NO</wStormsAlarm>
+  <GPS Altitude="275" Latitude="20.171635" Longitude="44.665503" />
+  <GPS Altitude="275" Latitude="20.169619" Longitude="44.665179" />
+  <GPS Altitude="275" Latitude="20.167130" Longitude="44.661287" />
+  <GPS Altitude="275" Latitude="20.164962" Longitude="44.662006" />
+  <GPS Altitude="275" Latitude="20.166760" Longitude="44.665088" />
+  <GPS Altitude="275" Latitude="20.166803" Longitude="44.666137" />
+  <GPS Altitude="275" Latitude="20.171378" Longitude="44.666615" />
+  </Substation>
+<Substation id="" name="SS Pancevo">
+    <Type>SS 400/220/110 kV</Type>
+  <InstalledCapacity>250</InstalledCapacity>
+  <Unom_kV>250</Unom_kV>
+  <Umin_kV>250</Umin_kV>
+  <Umax_kV>420</Umax_kV>
+  <Pg_MW>250</Pg_MW>
+  <Qg_MVAr>250</Qg_MVAr>
+  <Pload_MW>250</Pload_MW>
+  <Qload_MVAr>250</Qload_MVAr>
+  <U_kV>250</U_kV>
+  <Theta>250</Theta>
+  <Branch Status="Off" neighb_node_id="" type="Transformer" />
+  <Branch Status="On" neighb_node_id="" type="Transformer" />
+  <Branch Status="Off" neighb_node_id="" type="OHL" />
+  <Branch Status="Off" neighb_node_id="" type="HVDC" />
+  <Branch Status="Off" neighb_node_id="" type="Transformer" />
+  <wWindSpeed>23</wWindSpeed>
+  <wSolarRadiation>1900</wSolarRadiation>
+  <wTemperature>34</wTemperature>
+  <wCloudiness>25</wCloudiness>
+  <wPrecipitations>30</wPrecipitations>
+  <wInflows>2400</wInflows>
+  <wIceAlarm>NO</wIceAlarm>
+  <wStormsAlarm>NO</wStormsAlarm>
+  <GPS Altitude="275" Latitude="20.700374" Longitude="44.869551" />
+  <GPS Altitude="275" Latitude="20.700283" Longitude="44.868503" />
+  <GPS Altitude="275" Latitude="20.700579" Longitude="44.868458" />
+  <GPS Altitude="275" Latitude="20.700504" Longitude="44.867540" />
+  <GPS Altitude="275" Latitude="20.697829" Longitude="44.867686" />
+  <GPS Altitude="275" Latitude="20.697817" Longitude="44.868358" />
+  <GPS Altitude="275" Latitude="20.697245" Longitude="44.868413" />
+  <GPS Altitude="275" Latitude="20.697364" Longitude="44.869722" />
+  </Substation>
+</data_substations>

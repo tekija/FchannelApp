@@ -1,0 +1,2703 @@
+<?xml version="1.0"?>
+<data_branches_input>
+    <Branch SS1="Bitola" SS2="Elbasan" country1="AL" country2="MK" NominalVoltage="400" ID="123456781">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="41.057348" Latitude="21.4730123" Altitude="275"/>
+        <GPS Longitude="41.185196" Latitude="21.028689" Altitude="275"/>
+        <GPS Longitude="41.201539" Latitude="20.575149" Altitude="200"/>
+        <GPS Longitude="41.139537" Latitude="20.314569" Altitude="300"/>
+      <GPS Longitude="41.08999" Latitude="20.0622805555" Altitude="275"/>
+    </Branch>
+   <Branch SS1="Mukacheve" SS2="Kapushany" country1="UA" country2="SK" NominalVoltage="400" ID="123456782">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.16</R_Ohm>
+        <X_Ohm>0.2</X_Ohm>
+        <S_uS>30</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="48.443093" Latitude="22.720606" Altitude="400"/>
+        <GPS Longitude="48.562979" Latitude="22.308110" Altitude="250"/>
+        <GPS Longitude="48.544707" Latitude="22.081040" Altitude="300"/>
+     </Branch>
+    <Branch SS1="Vulcanesti" SS2="RISACC0" country1="MD" country2="RO" NominalVoltage="400" ID="123456783">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="45.25599166666667" Latitude="28.46096111111111" Altitude="350"/>
+         <GPS Longitude="45.669170" Latitude="28.380529" Altitude="200"/>
+        <GPS Longitude="46.408821" Latitude="28.633466" Altitude="300"/>
+        <GPS Longitude="46.998313" Latitude="28.855109" Altitude="400"/>
+    </Branch>
+    <Branch SS1="Pljevlja" SS2="Lastva" country1="ME" country2="ME" NominalVoltage="400" ID="123456784">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="43.354494" Latitude="19.364662" Altitude="350"/>
+        <GPS Longitude="43.145108" Latitude="19.151957" Altitude="275"/>
+        <GPS Longitude="43.003354" Latitude="18.931887" Altitude="200"/>
+        <GPS Longitude="42.306949" Latitude="18.756358" Altitude="300"/>
+    </Branch>
+   <Branch SS1="JOBREN11" SS2="JBBAST11" country1="RS" country2="RS" NominalVoltage="400" ID="123456785">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="44.6642348315" Latitude="20.1876037364" Altitude="350"/>
+        <GPS Longitude="43.94377358" Latitude="19.50057157" Altitude="275"/>
+    </Branch>
+       <Branch SS1="JBBAST11" SS2="Pljevlja" country1="RS" country2="ME" NominalVoltage="400" ID="123456786">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="43.94377358" Latitude="19.50057157" Altitude="275"/>
+        <GPS Longitude="43.354494" Latitude="19.364662" Altitude="400"/>
+    </Branch>
+       <Branch SS1="RRESIT" SS2="JPANC211" country1="RO" country2="RS" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="44.8668380629" Latitude="20.7071768282" Altitude="350"/>
+        <GPS Longitude="45.344588888888886" Latitude="21.921391666666665" Altitude="275"/>
+    </Branch>
+	<Branch SS1="GAMYNT1" SS2="GKARDI11" country1="GR" country2="GR" NominalVoltage="400" ID="123436787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="40.405639" Latitude="21.780684" Altitude="350"/>
+        <GPS Longitude="40.61805" Latitude="21.686996" Altitude="275"/>
+    </Branch>
+	<Branch SS1="GAMYNT11" SS2="GAHS_F11" country1="GR" country2="GR" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="40.61805" Latitude="21.686996" Altitude="350"/>
+        <GPS Longitude="40.810868" Latitude="21.597551" Altitude="275"/>
+    </Branch>
+		<Branch SS1="GKLAG11" SS2="GAMYNT11" country1="GR" country2="GR" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS> 
+        <Offset>0</Offset>
+        <GPS Longitude="40.61805" Latitude="21.686996" Altitude="350"/>
+        <GPS Longitude="40.789662" Latitude="23.047391" Altitude="275"/>
+    </Branch>
+	<Branch SS1="GKYT_T11" SS2="GELPE11" country1="GR" country2="GR" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="40.688174" Latitude="22.88639" Altitude="350"/>
+        <GPS Longitude="40.691811" Latitude="22.924135" Altitude="275"/>
+    </Branch>
+<Branch SS1="GKYT_T11" SS2="GKLAG11" country1="GR" country2="GR" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="40.691811" Latitude="22.924135" Altitude="350"/>
+        <GPS Longitude="40.789662" Latitude="23.047391" Altitude="275"/>
+    </Branch>
+	<Branch SS1="GKYT_T11" SS2="GAGDI12" country1="GR" country2="GR" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="40.389385" Latitude="21.921961" Altitude="350"/>
+        <GPS Longitude="40.691811" Latitude="22.924135" Altitude="275"/>
+    </Branch>
+	<Branch SS1="GAGDI12" SS2="GLARIS11" country1="GR" country2="GR" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="39.537771" Latitude="22.517415" Altitude="350"/>
+        <GPS Longitude="40.389385" Latitude="21.921961" Altitude="275"/>
+    </Branch>
+	<Branch SS1="GKARDI11" SS2="GLARIS11" country1="GR" country2="GR" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="39.537771" Latitude="22.517415" Altitude="350"/>
+        <GPS Longitude="40.405639" Latitude="21.780684" Altitude="275"/>
+    </Branch>
+	<Branch SS1="GKARDI11" SS2="GK-TRI11" country1="GR" country2="GR" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="39.557994" Latitude="21.882588" Altitude="350"/>
+        <GPS Longitude="40.405639" Latitude="21.780684" Altitude="275"/>
+    </Branch>
+	<Branch SS1="GLARIS11" SS2="GK_LAR91" country1="GR" country2="GR" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="39.53642" Latitude="22.51647" Altitude="350"/>
+        <GPS Longitude="39.537771" Latitude="22.517415" Altitude="275"/>
+    </Branch>
+	<Branch SS1="GAGDI12" SS2="GKARDI11" country1="GR" country2="GR" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="40.389385" Latitude="21.921961" Altitude="350"/>
+        <GPS Longitude="40.405639" Latitude="21.780684" Altitude="275"/>
+    </Branch>
+	<Branch SS1="GAGDI12" SS2="GAGIDI11" country1="GR" country2="GR" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="40.389385" Latitude="21.921961" Altitude="350"/>
+        <GPS Longitude="40.393655" Latitude="21.922562" Altitude="275"/>
+    </Branch>
+	<Branch SS1="GKYT_T11" SS2="GKLAG11" country1="GR" country2="GR" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="40.691811" Latitude="22.924135" Altitude="350"/>
+        <GPS Longitude="40.789662" Latitude="23.047391" Altitude="275"/>
+    </Branch>
+	<Branch SS1="GKALIB99" SS2="GK_LAR91" country1="GR" country2="GR" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="38.39164" Latitude="24.05621" Altitude="350"/>
+        <GPS Longitude="39.53642" Latitude="22.51647" Altitude="275"/>
+    </Branch>
+	<Branch SS1="GFILIP11" SS2="GKLAG11" country1="GR" country2="GR" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="40.789662" Latitude="23.047391" Altitude="350"/>
+        <GPS Longitude="41.04666" Latitude="24.261771" Altitude="275"/>
+    </Branch>
+	<Branch SS1="GK_NSA11" SS2="GFILIP11" country1="GR" country2="GR" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="41.04666" Latitude="24.261771" Altitude="350"/>
+        <GPS Longitude="41.100254" Latitude="25.746868" Altitude="275"/>
+    </Branch>
+	<Branch SS1="GPTOLEM" SS2="GAMYNT11" country1="GR" country2="GR" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="40.49083" Latitude="21.77785" Altitude="350"/>
+        <GPS Longitude="40.61805" Latitude="21.686996" Altitude="275"/>
+    </Branch>
+	<Branch SS1="GPTOLEM" SS2="GKARDI11" country1="GR" country2="GR" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="40.405639" Latitude="21.780684" Altitude="350"/>
+        <GPS Longitude="40.49083" Latitude="21.77785" Altitude="275"/>
+    </Branch>
+	<Branch SS1="GALIB20" SS2="GK_LAR91" country1="GR" country2="GR" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="38.39164" Latitude="24.05621" Altitude="350"/>
+        <GPS Longitude="39.53642" Latitude="22.51647" Altitude="275"/>
+    </Branch>
+	<Branch SS1="GK_KORK11" SS2="GKMEG13" country1="GR" country2="GR" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="37.42722" Latitude="22.06283" Altitude="350"/>
+        <GPS Longitude="37.899789" Latitude="22.949064" Altitude="275"/>
+    </Branch>
+	<Branch SS1="GK_MEG15" SS2="GKMEG11" country1="GR" country2="GR" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="37.42722" Latitude="22.06283" Altitude="350"/>
+        <GPS Longitude="37.427792" Latitude="22.062157" Altitude="275"/>
+    </Branch>
+	<Branch SS1="GDISTO13" SS2="G_HERON11" country1="GR" country2="GR" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="38.27922" Latitude="23.32713" Altitude="350"/>
+        <GPS Longitude="38.437286" Latitude="22.687967" Altitude="275"/>
+    </Branch>
+	<Branch SS1="GDISTO13" SS2="G_THISV12" country1="GR" country2="GR" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="38.23837" Latitude="22.94921" Altitude="350"/>
+        <GPS Longitude="38.437286" Latitude="22.687967" Altitude="275"/>
+    </Branch>
+	<Branch SS1="GK_MEG15" SS2="GKMEG13" country1="GR" country2="GR" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="37.42722" Latitude="22.06283" Altitude="350"/>
+        <GPS Longitude="37.427792" Latitude="22.062157" Altitude="275"/>
+    </Branch>
+	<Branch SS1="GKMEG13" SS2="GKPATR11" country1="GR" country2="GR" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="37.42722" Latitude="22.06283" Altitude="350"/>
+        <GPS Longitude="38.25387" Latitude="21.77971" Altitude="275"/>
+    </Branch>
+	<Branch SS1="GDISTO13" SS2="GENELC13" country1="GR" country2="GR" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="38.437286" Latitude="22.687967" Altitude="350"/>
+        <GPS Longitude="38.509824" Latitude="22.834931" Altitude="275"/>
+    </Branch>
+	<Branch SS1="GDISTO13" SS2="GACELW11" country1="GR" country2="GR" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="38.437286" Latitude="22.687967" Altitude="350"/>
+        <GPS Longitude="38.720321" Latitude="21.419142" Altitude="275"/>
+    </Branch>
+	<Branch SS1="GK_PATC12" SS2="GAXE12" country1="GR" country2="GR" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="38.25387" Latitude="21.77971" Altitude="350"/>
+        <GPS Longitude="38.72027" Latitude="21.41904" Altitude="275"/>
+    </Branch>
+	<Branch SS1="GK_PATC11" SS2="GDISTO12" country1="GR" country2="GR" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="38.25387" Latitude="21.77971" Altitude="350"/>
+        <GPS Longitude="38.43725" Latitude="22.68792" Altitude="275"/>
+    </Branch>
+	<Branch SS1="GKMEG11" SS2="GKPATR11" country1="GR" country2="GR" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="37.42722" Latitude="22.06283" Altitude="350"/>
+        <GPS Longitude="38.25387" Latitude="21.77971" Altitude="275"/>
+    </Branch>
+	<Branch SS1="GACELW11" SS2="GPYRGU11" country1="GR" country2="GR" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="38.720321" Latitude="21.419142" Altitude="350"/>
+        <GPS Longitude="38.8742" Latitude="21.44175" Altitude="275"/>
+    </Branch>
+	<Branch SS1="GACELW11" SS2="GAXELO11" country1="GR" country2="GR" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="38.72027" Latitude="21.41904" Altitude="350"/>
+        <GPS Longitude="38.720321" Latitude="21.419142" Altitude="275"/>
+    </Branch>
+	<Branch SS1="GACELW11" SS2="GKARACH1" country1="GR" country2="GR" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="38.720321" Latitude="21.419142" Altitude="350"/>
+        <GPS Longitude="39.183873" Latitude="20.965418" Altitude="275"/>
+    </Branch>
+	 <Branch SS1="GKROUF11" SS2="GKORAK" country1="GR" country2="GR" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="35.363811" Latitude="24.935953" Altitude="350"/>
+        <GPS Longitude="38.03354" Latitude="23.62357" Altitude="275"/>
+    </Branch>
+	<Branch SS1="GPALLH11" SS2="GLAURI11" country1="GR" country2="GR" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="37.747204" Latitude="24.065535" Altitude="350"/>
+        <GPS Longitude="37.99385" Latitude="23.852127" Altitude="275"/>
+    </Branch>
+	 <Branch SS1="GK_LAR91" SS2="GDISTO13" country1="GR" country2="GR" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="38.437286" Latitude="22.687967" Altitude="350"/>
+        <GPS Longitude="39.53642" Latitude="22.51647" Altitude="275"/>
+    </Branch> 
+	<Branch SS1="GK_LAR91" SS2="GENELC13" country1="GR" country2="GR" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="38.509824" Latitude="22.834931" Altitude="350"/>
+        <GPS Longitude="39.53642" Latitude="22.51647" Altitude="275"/>
+    </Branch> 
+	<Branch SS1="GKALIB99" SS2="GK_LAR91" country1="GR" country2="GR" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="38.39164" Latitude="24.05621" Altitude="350"/>
+        <GPS Longitude="39.53642" Latitude="22.51647" Altitude="275"/>
+    </Branch> 
+	<Branch SS1="GKALIB99" SS2="GAG.ST21" country1="GR" country2="GR" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="38.132748" Latitude="23.835616" Altitude="350"/>
+        <GPS Longitude="38.39164" Latitude="24.05621" Altitude="275"/>
+    </Branch> 
+	<Branch SS1="GTH_AG11" SS2="GDISTO13" country1="GR" country2="GR" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="38.356459" Latitude="22.689212" Altitude="350"/>
+        <GPS Longitude="38.437286" Latitude="22.687967" Altitude="275"/>
+    </Branch> 
+    <Branch SS1="GTH_AG11" SS2="GDIS11" country1="GR" country2="GR" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="38.356459" Latitude="22.689212" Altitude="350"/>
+        <GPS Longitude="38.43725" Latitude="22.68792" Altitude="275"/>
+    </Branch> 
+	<Branch SS1="GK_LAR91" SS2="GAG.ST21" country1="GR" country2="GR" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="38.132748" Latitude="23.835616" Altitude="350"/>
+        <GPS Longitude="39.53642" Latitude="22.51647" Altitude="275"/>
+    </Branch> 
+	<Branch SS1="GK_LAR91" SS2="GACARN11" country1="GR" country2="GR" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="38.101" Latitude="23.734555" Altitude="350"/>
+        <GPS Longitude="39.53642" Latitude="22.51647" Altitude="275"/>
+    </Branch> 
+	<Branch SS1="GLARIS11" SS2="GK_LAR91" country1="GR" country2="GR" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="39.53642" Latitude="22.51647" Altitude="350"/>
+        <GPS Longitude="39.537771" Latitude="22.517415" Altitude="275"/>
+    </Branch> 
+	<Branch SS1="GLAMIA11" SS2="GK-TRI11" country1="GR" country2="GR" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="38.954189" Latitude="22.434977" Altitude="350"/>
+        <GPS Longitude="39.557994" Latitude="21.882588" Altitude="275"/>
+    </Branch> 
+	<Branch SS1="GLAMIA11" SS2="GDISTO13" country1="GR" country2="GR" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="38.437286" Latitude="22.687967" Altitude="350"/>
+        <GPS Longitude="38.954189" Latitude="22.434977" Altitude="275"/>
+    </Branch>
+	<Branch SS1="GK-TRI11" SS2="GKARACH1" country1="GR" country2="GR" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="39.183873" Latitude="20.965418" Altitude="350"/>
+        <GPS Longitude="39.557994" Latitude="21.882588" Altitude="275"/>
+    </Branch>
+	<Branch SS1="GKOUM_11" SS2="GK_KORK11" country1="GR" country2="GR" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="37.899789" Latitude="22.949064" Altitude="350"/>
+        <GPS Longitude="38.033172" Latitude="23.622411" Altitude="275"/>
+    </Branch> 
+	 <Branch SS1="GKOUM_11" SS2="G_THISV12" country1="GR" country2="GR" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="38.033172" Latitude="23.622411" Altitude="350"/>
+        <GPS Longitude="38.23837" Latitude="22.94921" Altitude="275"/>
+    </Branch> 
+	<Branch SS1="GKOUM_11" SS2="G_HERON11" country1="GR" country2="GR" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="38.033172" Latitude="23.622411" Altitude="350"/>
+        <GPS Longitude="38.27922" Latitude="23.32713" Altitude="275"/>
+    </Branch> 
+	<Branch SS1="GAG.ST21" SS2="GPALLH11" country1="GR" country2="GR" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="37.99385" Latitude="23.852127" Altitude="350"/>
+        <GPS Longitude="38.132748" Latitude="23.835616" Altitude="275"/>
+    </Branch> 
+	<Branch SS1="GACARN11" SS2="GKOUM_11" country1="GR" country2="GR" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="38.033172" Latitude="23.622411" Altitude="350"/>
+        <GPS Longitude="38.101" Latitude="23.734555" Altitude="275"/>
+    </Branch>
+	<Branch SS1="GACARN11" SS2="GAG.ST21" country1="GR" country2="GR" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="38.132748" Latitude="23.835616" Altitude="350"/>
+        <GPS Longitude="38.101" Latitude="23.734555" Altitude="275"/>
+    </Branch>
+	<Branch SS1="GACARN11" SS2="GK.ROUF13" country1="GR" country2="GR" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="38.03354" Latitude="23.62357" Altitude="350"/>
+        <GPS Longitude="38.101" Latitude="23.734555" Altitude="275"/>
+    </Branch>
+	<Branch SS1="GKOUM_11" SS2="GKYTROUF12" country1="GR" country2="GR" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="38.033172" Latitude="23.622411" Altitude="350"/>
+        <GPS Longitude="38.03354" Latitude="23.62357" Altitude="275"/>
+    </Branch>
+	<Branch SS1="XZE_KA11" SS2="AZE" country1="AL" country2="GR" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="40.405639" Latitude="21.780684" Altitude="350"/>
+        <GPS Longitude="40.701325" Latitude="20.8842027777" Altitude="275"/>
+    </Branch>
+	<Branch SS1="XTH_DU11" SS2="DUBROVO1" country1="GR" country2="MK" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="40.691811" Latitude="22.924135" Altitude="350"/>
+        <GPS Longitude="41.4623075" Latitude="22.146244600000003" Altitude="275"/>
+    </Branch>
+	<Branch SS1="XFL_BI11" SS2="BITOLA 22" country1="GR" country2="MK" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="40.810868" Latitude="21.597551" Altitude="350"/>
+        <GPS Longitude="41.057348" Latitude="21.4730123" Altitude="275"/>
+    </Branch>
+	<Branch SS1="BITOLA 22" SS2="MARIOVO" country1="MK" country2="MK" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="41.057348" Latitude="21.4730123" Altitude="350"/>
+        <GPS Longitude="41.162813" Latitude="21.730048" Altitude="275"/>
+    </Branch>
+	<Branch SS1="DUBROVO1" SS2="MARIOVO" country1="MK" country2="MK" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="41.162813" Latitude="21.730048" Altitude="350"/>
+        <GPS Longitude="41.4623075" Latitude="22.146244600000003" Altitude="275"/>
+    </Branch>
+	<Branch SS1="DUBROVO1" SS2="SK 4" country1="MK" country2="MK" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="41.4623075" Latitude="22.146244600000003" Altitude="350"/>
+        <GPS Longitude="41.9480986" Latitude="21.4925244" Altitude="275"/>
+    </Branch>
+	<Branch SS1="DUBROVO1" SS2="STIP_1" country1="MK" country2="MK" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="41.4623075" Latitude="22.146244600000003" Altitude="350"/>
+        <GPS Longitude="41.7747788" Latitude="22.1738325" Altitude="275"/>
+    </Branch>
+	<Branch SS1="BITOLA 2" SS2="SK 4" country1="MK" country2="MK" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="41.057348" Latitude="21.4730123" Altitude="350"/>
+        <GPS Longitude="41.9480986" Latitude="21.4925244" Altitude="275"/>
+    </Branch>
+	<Branch SS1="STIP" SS2="KUMANOVO_1" country1="MK" country2="MK" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="41.7747788" Latitude="22.1738325" Altitude="350"/>
+        <GPS Longitude="42.1669841" Latitude="21.8149384" Altitude="275"/>
+    </Branch>
+	<Branch SS1="XST_VR11" SS2="JVRAN411" country1="MK" country2="RS" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="42.1669841" Latitude="21.8149384" Altitude="350"/>
+        <GPS Longitude="42.4910641748" Latitude="21.9270425847" Altitude="275"/>
+    </Branch>
+	<Branch SS1="SK 4" SS2="SK 1_1" country1="MK" country2="MK" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="41.9480986" Latitude="21.4925244" Altitude="350"/>
+        <GPS Longitude="42.0384728" Latitude="21.457211" Altitude="275"/>
+    </Branch>
+	<Branch SS1="XSK_UR11" SS2="JUROS21" country1="MK" country2="RS" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="42.0384728" Latitude="21.457211" Altitude="350"/>
+        <GPS Longitude="42.3687390912" Latitude="21.2544213699" Altitude="275"/>
+    </Branch>
+	<Branch SS1="AEL_400" SS2="AZE_400" country1="AL" country2="AL" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="40.701325" Latitude="20.8842027777" Altitude="350"/>
+        <GPS Longitude="41.08999" Latitude="20.0622805555" Altitude="275"/>
+    </Branch>
+	<Branch SS1="AEL_400" SS2="AFI_400" country1="AL" country2="AL" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="40.69956666" Latitude="19.5514833333" Altitude="350"/>
+        <GPS Longitude="41.08999" Latitude="20.0622805555" Altitude="275"/>
+    </Branch>
+	<Branch SS1="AEL_400" SS2="ATI_4000" country1="AL" country2="AL" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="41.269867" Latitude="19.821206" Altitude="350"/>
+        <GPS Longitude="41.08999" Latitude="20.0622805555" Altitude="275"/>
+    </Branch>
+	<Branch SS1="ALE_4000" SS2="ATI_400" country1="AL" country2="AL" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="41.3575416666" Latitude="19.6979083333" Altitude="350"/>
+        <GPS Longitude="41.84970555" Latitude="19.671925" Altitude="275"/>
+    </Branch>
+	<Branch SS1="ATI_400" SS2="ATI_4000" country1="AL" country2="AL" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="41.269867" Latitude="19.821206" Altitude="350"/>
+        <GPS Longitude="41.3575416666" Latitude="19.6979083333" Altitude="275"/>
+    </Branch>
+	<Branch SS1="ALE_4000" SS2="AKO_400" country1="AL" country2="AL" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="41.84970555" Latitude="19.671925" Altitude="350"/>
+        <GPS Longitude="42.101938888" Latitude="19.82" Altitude="275"/>
+    </Branch>
+	<Branch SS1="XKA_KB11" SS2="JGJAK31" country1="AL" country2="RS" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="42.101938888" Latitude="19.82" Altitude="350"/>
+        <GPS Longitude="42.4037" Latitude="20.41" Altitude="275"/>
+    </Branch>
+	<Branch SS1="JGJAK31" SS2="JPRIZ41" country1="RS" country2="RS" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="42.255382186" Latitude="20.6079091816" Altitude="350"/>
+        <GPS Longitude="42.4037" Latitude="20.41" Altitude="275"/>
+    </Branch>
+	<Branch SS1="JUROS21" SS2="JPRIZ41" country1="RS" country2="RS" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="42.255382186" Latitude="20.6079091816" Altitude="350"/>
+        <GPS Longitude="42.3687390912" Latitude="21.2544213699" Altitude="275"/>
+    </Branch>
+	<Branch SS1="JTKOSB2" SS2="JUROS21" country1="RS" country2="RS" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="42.3687390912" Latitude="21.2544213699" Altitude="350"/>
+        <GPS Longitude="42.6913297906" Latitude="21.0902955341" Altitude="275"/>
+    </Branch>
+	<Branch SS1="JPEC 31" SS2="JTKOSC1" country1="RS" country2="RS" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="42.6963" Latitude="21.0542" Altitude="350"/>
+        <GPS Longitude="42.7452238284" Latitude="20.5466977659" Altitude="275"/>
+    </Branch>
+	<Branch SS1="JTKOSB2" SS2="JGJAK31" country1="RS" country2="RS" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="42.4037" Latitude="20.41" Altitude="350"/>
+        <GPS Longitude="42.6913297906" Latitude="21.0902955341" Altitude="275"/>
+    </Branch>
+	<Branch SS1="JNIS2 11" SS2="JTKOSB2" country1="RS" country2="RS" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="42.6913297906" Latitude="21.0902955341" Altitude="350"/>
+        <GPS Longitude="43.288181587" Latitude="21.9728960814" Altitude="275"/>
+    </Branch>
+	<Branch SS1="JLESK21" SS2="JVRAN411" country1="RS" country2="RS" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="42.4910641748" Latitude="21.9270425847" Altitude="350"/>
+        <GPS Longitude="42.9527875205" Latitude="21.9998349346" Altitude="275"/>
+    </Branch>
+	<Branch SS1="JNIS2 11" SS2="JLESK21" country1="RS" country2="RS" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="42.9527875205" Latitude="21.9998349346" Altitude="350"/>
+        <GPS Longitude="43.288181587" Latitude="21.9728960814" Altitude="275"/>
+    </Branch>
+	<Branch SS1="JNIS2 11" SS2="JBOR 21" country1="RS" country2="RS" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="43.288181587" Latitude="21.9728960814" Altitude="350"/>
+        <GPS Longitude="44.04672418" Latitude="22.12484109" Altitude="275"/>
+    </Branch>
+	 <Branch SS1="JHDJE111" SS2="JBOR 21" country1="RS" country2="RS" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="44.6706733756" Latitude="22.5039347771" Altitude="350"/>
+        <GPS Longitude="44.04672418" Latitude="22.12484109" Altitude="275"/>
+    </Branch>
+	 <Branch SS1="JHDJE111" SS2="JRPDRM12_1" country1="RS" country2="RS" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="44.6706733756" Latitude="22.5039347771" Altitude="350"/>
+        <GPS Longitude="44.7372010324" Latitude="21.2357622192" Altitude="275"/>
+    </Branch>
+	<Branch SS1="JSMED31" SS2="JRPDRM12_1" country1="RS" country2="RS" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="44.6076796649" Latitude="20.954237561" Altitude="350"/>
+        <GPS Longitude="44.7372010324" Latitude="21.2357622192" Altitude="275"/>
+    </Branch>
+	<Branch SS1="JWCIBU11" SS2="JRPDRM12_1" country1="RS" country2="RS" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="44.7372010324" Latitude="21.2357622192" Altitude="350"/>
+        <GPS Longitude="44.9083" Latitude="20.9728" Altitude="275"/>
+    </Branch>
+	<Branch SS1="JWCIBU11" SS2="JPANC211" country1="RS" country2="RS" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="44.8668380629" Latitude="20.7071768282" Altitude="350"/>
+        <GPS Longitude="44.9083" Latitude="20.9728" Altitude="275"/>
+    </Branch>
+	<Branch SS1="JSMED31" SS2="JBGD8 11" country1="RS" country2="RS" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="44.6076796649" Latitude="20.954237561" Altitude="350"/>
+        <GPS Longitude="44.74130343" Latitude="20.59478607" Altitude="275"/>
+    </Branch>
+	<Branch SS1="JBGD2011" SS2="JPANC211" country1="RS" country2="RS" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="44.82017022" Latitude="20.56000297" Altitude="350"/>
+        <GPS Longitude="44.8668380629" Latitude="20.7071768282" Altitude="275"/>
+    </Branch>
+	<Branch SS1="JBGD2011" SS2="JBGD8 11" country1="RS" country2="RS" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="44.74130343" Latitude="20.59478607" Altitude="350"/>
+        <GPS Longitude="44.82017022" Latitude="20.56000297" Altitude="275"/>
+    </Branch>
+	<Branch SS1="JBGD8 11" SS2="JOBREN11" country1="RS" country2="RS" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="44.6642348315" Latitude="20.1876037364" Altitude="350"/>
+        <GPS Longitude="44.74130343" Latitude="20.59478607" Altitude="275"/>
+    </Branch>
+	<Branch SS1="JRPMLA11" SS2="JOBREN11" country1="RS" country2="RS" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="44.6642348315" Latitude="20.1876037364" Altitude="350"/>
+        <GPS Longitude="44.6785303469" Latitude="20.1116239695" Altitude="275"/>
+    </Branch>
+	<Branch SS1="JRPMLA11" SS2="JTENTB11" country1="RS" country2="RS" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>-2</Offset>
+        <GPS Longitude="44.6546140866" Latitude="20.0202124831" Altitude="350"/>
+        <GPS Longitude="44.6785303469" Latitude="20.1116239695" Altitude="275"/>
+    </Branch>
+    	<Branch SS1="JRPMLA12" SS2="JTENTB12" country1="RS" country2="RS" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>2</Offset>
+        <GPS Longitude="44.6546140866" Latitude="20.0202124831" Altitude="350"/>
+        <GPS Longitude="44.6785303469" Latitude="20.1116239695" Altitude="275"/>
+    </Branch>
+	<Branch SS1="JRPMLA11" SS2="JNSAD311" country1="RS" country2="RS" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="45.3409349187" Latitude="19.8414720568" Altitude="350"/>
+        <GPS Longitude="44.6785303469" Latitude="20.1116239695" Altitude="275"/>
+    </Branch>
+	<Branch SS1="JRPMLA11" SS2="JSMIT211" country1="RS" country2="RS" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="45.0206839063" Latitude="19.6105773322" Altitude="350"/>
+        <GPS Longitude="44.6785303469" Latitude="20.1116239695" Altitude="275"/>
+    </Branch>
+	<Branch SS1="XVG_BB11" SS2="WVISEG1" country1="RS" country2="BA" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="43.7928320319" Latitude="19.281383582" Altitude="350"/>
+        <GPS Longitude="43.94377358" Latitude="19.50057157" Altitude="275"/>
+    </Branch>
+	<Branch SS1="XER_SM11" SS2="JSMIT211" country1="HR" country2="RS" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="45.0206839063" Latitude="19.6105773322" Altitude="350"/>
+        <GPS Longitude="45.47252777777778" Latitude="18.66288888888889" Altitude="275"/>
+    </Branch>
+	<Branch SS1="XUG_SM11" SS2="WTUGLJ1" country1="RS" country2="BA" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="44.6860716705" Latitude="18.9654447123" Altitude="350"/>
+        <GPS Longitude="45.0206839063" Latitude="19.6105773322" Altitude="275"/>
+    </Branch>
+	<Branch SS1="JSRBOB1" SS2="JSUBO311" country1="RS" country2="RS" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="45.527425149" Latitude="19.7568969789" Altitude="350"/>
+        <GPS Longitude="46.020603113" Latitude="19.7215310002" Altitude="275"/>
+    </Branch>
+	<Branch SS1="JSOMB31" SS2="JSUBO311" country1="RS" country2="RS" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="45.7536161378" Latitude="19.1759485146" Altitude="350"/>
+        <GPS Longitude="46.020603113" Latitude="19.7215310002" Altitude="275"/>
+    </Branch>
+	<Branch SS1="XSA_SU11" SS2="JSUBO311" country1="HU" country2="RS" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="46.020603113" Latitude="19.7215310002" Altitude="350"/>
+        <GPS Longitude="46.3065883" Latitude="20.1280291" Altitude="275"/>
+    </Branch>	
+	<Branch SS1="JNSAD311" SS2="JSRBOB1" country1="RS" country2="RS" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="45.3409349187" Latitude="19.8414720568" Altitude="350"/>
+        <GPS Longitude="45.527425149" Latitude="19.7568969789" Altitude="275"/>
+    </Branch>
+	<Branch SS1="JKRAG21" SS2="JOBREN11" country1="RS" country2="RS" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="44.056484831" Latitude="20.9299631343" Altitude="350"/>
+        <GPS Longitude="44.6642348315" Latitude="20.1876037364" Altitude="275"/>
+    </Branch>
+	<Branch SS1="JKRAG21" SS2="JJAGO411" country1="RS" country2="RS" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="43.9538336602" Latitude="21.3085330947" Altitude="350"/>
+        <GPS Longitude="44.056484831" Latitude="20.9299631343" Altitude="275"/>
+    </Branch>
+	<Branch SS1="JJAGO411" SS2="JNIS2 11" country1="RS" country2="RS" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="43.288181587" Latitude="21.9728960814" Altitude="350"/>
+        <GPS Longitude="43.9538336602" Latitude="21.3085330947" Altitude="275"/>
+    </Branch>
+	<Branch SS1="JKRAG21" SS2="JKRAL31" country1="RS" country2="RS" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="43.667561256" Latitude="20.7447544491" Altitude="350"/>
+        <GPS Longitude="44.056484831" Latitude="20.9299631343" Altitude="275"/>
+    </Branch>
+	<Branch SS1="XPF_DJ11" SS2="JHDJE111" country1="RO" country2="RS" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="44.6706733756" Latitude="22.5039347771" Altitude="350"/>
+        <GPS Longitude="44.672241666666665" Latitude="22.538955555555557" Altitude="275"/>
+    </Branch>
+	<Branch SS1="RP.D.F" SS2="RSLATI" country1="RO" country2="RO" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="44.451499444444444" Latitude="24.395365833333333" Altitude="350"/>
+        <GPS Longitude="44.672241666666665" Latitude="22.538955555555557" Altitude="275"/>
+    </Branch>
+	<Branch SS1="RP.D.F" SS2="RURECH" country1="RO" country2="RO" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="44.97139166666667" Latitude="23.256955555555557" Altitude="350"/>
+        <GPS Longitude="44.672241666666665" Latitude="22.538955555555557" Altitude="275"/>
+    </Branch>
+	<Branch SS1="RP.D.F" SS2="RRESIT" country1="RO" country2="RO" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="45.344588888888886" Latitude="21.921391666666665" Altitude="350"/>
+        <GPS Longitude="44.672241666666665" Latitude="22.538955555555557" Altitude="275"/>
+    </Branch>
+	<Branch SS1="RTANTA1" SS2="RURECH" country1="RO" country2="RO" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="44.61324722222222" Latitude="23.490377777777777" Altitude="350"/>
+        <GPS Longitude="44.97139166666667" Latitude="23.256955555555557" Altitude="275"/>
+    </Branch>
+	<Branch SS1="RTANTA1" SS2="RSLATI" country1="RO" country2="RO" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="44.451499444444444" Latitude="24.395365833333333" Altitude="350"/>
+        <GPS Longitude="44.61324722222222" Latitude="23.490377777777777" Altitude="275"/>
+    </Branch>
+	<Branch SS1="RDRAGA1" SS2="RSLATI" country1="RO" country2="RO" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="44.451499444444444" Latitude="24.395365833333333" Altitude="350"/>
+        <GPS Longitude="44.17738611111111" Latitude="24.51141388888889" Altitude="275"/>
+    </Branch>
+	<Branch SS1="RBUC.S" SS2="RSLATI" country1="RO" country2="RO" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="44.451499444444444" Latitude="24.395365833333333" Altitude="350"/>
+        <GPS Longitude="44.40309166666667" Latitude="26.153858333333332" Altitude="275"/>
+    </Branch>
+	<Branch SS1="RURECH" SS2="RDOMNE1" country1="RO" country2="RO" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="44.405480555555556" Latitude="25.967619444444445" Altitude="350"/>
+        <GPS Longitude="44.97139166666667" Latitude="23.256955555555557" Altitude="275"/>
+    </Branch>
+	<Branch SS1="RTANTA1" SS2="RBRADU" country1="RO" country2="RO" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="44.61324722222222" Latitude="23.490377777777777" Altitude="350"/>
+        <GPS Longitude="44.76176944444445" Latitude="24.893629444444443" Altitude="275"/>
+    </Branch>
+	<Branch SS1="RTANTA1" SS2="RSIBIU" country1="RO" country2="RO" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="44.61324722222222" Latitude="23.490377777777777" Altitude="350"/>
+        <GPS Longitude="45.78541111111111" Latitude="24.194469444444444" Altitude="275"/>
+    </Branch>
+	<Branch SS1="RBRASO1" SS2="RBRADU" country1="RO" country2="RO" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="45.6801" Latitude="25.64211111111111" Altitude="350"/>
+        <GPS Longitude="44.76176944444445" Latitude="24.893629444444443" Altitude="275"/>
+    </Branch>
+	<Branch SS1="RBRASO1" SS2="RSIBIU" country1="RO" country2="RO" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="45.6801" Latitude="25.64211111111111" Altitude="350"/>
+        <GPS Longitude="45.78541111111111" Latitude="24.194469444444444" Altitude="275"/>
+    </Branch>
+	<Branch SS1="RBRAZI" SS2="RDOMNE1" country1="RO" country2="RO" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="44.405480555555556" Latitude="25.967619444444445" Altitude="350"/>
+        <GPS Longitude="44.89657777777778" Latitude="25.97238611111111" Altitude="275"/>
+    </Branch>
+	<Branch SS1="RBRAZI" SS2="RDIRST1" country1="RO" country2="RO" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="45.62475277777778" Latitude="25.65173888888889" Altitude="350"/>
+        <GPS Longitude="44.89657777777778" Latitude="25.97238611111111" Altitude="275"/>
+    </Branch>
+		<Branch SS1="RTELEA1" SS2="RSTILP1" country1="RO" country2="RO" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="44.94029166666667" Latitude="26.123413888888887" Altitude="350"/>
+        <GPS Longitude="45.07595833333333" Latitude="26.71653611111111" Altitude="275"/>
+    </Branch>
+	<Branch SS1="RSTILP1" SS2="RBRASO1" country1="RO" country2="RO" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="45.07595833333333" Latitude="26.71653611111111" Altitude="350"/>
+        <GPS Longitude="45.6801" Latitude="25.64211111111111" Altitude="275"/>
+    </Branch>
+	<Branch SS1="RBRAZI" SS2="RTELEA1" country1="RO" country2="RO" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="44.89657777777778" Latitude="25.97238611111111" Altitude="350"/>
+        <GPS Longitude="44.94029166666667" Latitude="26.123413888888887" Altitude="275"/>
+    </Branch>
+	<Branch SS1="RSLATI" SS2="RBUC.S" country1="RO" country2="RO" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="44.40309166666667" Latitude="26.153858333333332" Altitude="350"/>
+        <GPS Longitude="44.451499444444444" Latitude="24.395365833333333" Altitude="275"/>
+    </Branch>
+	<Branch SS1="RGR.IA1" SS2="RBUC.S" country1="RO" country2="RO" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="44.40309166666667" Latitude="26.153858333333332" Altitude="350"/>
+        <GPS Longitude="44.69411111111111" Latitude="27.764930555555555" Altitude="275"/>
+    </Branch>
+	<Branch SS1="RBUC.S" SS2="RPELIC1" country1="RO" country2="RO" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="44.240227777777775" Latitude="27.345747222222222" Altitude="350"/>
+        <GPS Longitude="44.40309166666667" Latitude="26.153858333333332" Altitude="275"/>
+    </Branch>
+	<Branch SS1="RSTILP1" SS2="RCERNA1" country1="RO" country2="RO" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="44.32446111111111" Latitude="28.063158333333334" Altitude="350"/>
+        <GPS Longitude="45.07595833333333" Latitude="26.71653611111111" Altitude="275"/>
+    </Branch>
+	<Branch SS1="RSTILP1" SS2="RGR.IA1" country1="RO" country2="RO" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="44.69411111111111" Latitude="27.764930555555555" Altitude="350"/>
+        <GPS Longitude="45.07595833333333" Latitude="26.71653611111111" Altitude="275"/>
+    </Branch>
+	<Branch SS1="RGR.IA1" SS2="RCERNA1" country1="RO" country2="RO" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="44.32446111111111" Latitude="28.063158333333334" Altitude="350"/>
+        <GPS Longitude="44.69411111111111" Latitude="27.764930555555555" Altitude="275"/>
+    </Branch>
+	<Branch SS1="RMEDGI1" SS2="RCONST1" country1="RO" country2="RO" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="44.20180277777778" Latitude="28.586933333333334" Altitude="350"/>
+        <GPS Longitude="44.23022777777778" Latitude="28.260316666666668" Altitude="275"/>
+    </Branch>
+	<Branch SS1="RCERNA1" SS2="RMEDGI1" country1="RO" country2="RO" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="44.23022777777778" Latitude="28.260316666666668" Altitude="350"/>
+        <GPS Longitude="44.32446111111111" Latitude="28.063158333333334" Altitude="275"/>
+    </Branch>
+	<Branch SS1="RCERNA1" SS2="RCONST1" country1="RO" country2="RO" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="44.20180277777778" Latitude="28.586933333333334" Altitude="350"/>
+        <GPS Longitude="44.32446111111111" Latitude="28.063158333333334" Altitude="275"/>
+    </Branch>
+	<Branch SS1="RCERNA1" SS2="RPELIC1" country1="RO" country2="RO" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="44.240227777777775" Latitude="27.345747222222222" Altitude="350"/>
+        <GPS Longitude="44.32446111111111" Latitude="28.063158333333334" Altitude="275"/>
+    </Branch>
+	<Branch SS1="RMEDGI1" SS2="RRAHMA1" country1="RO" country2="RO" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="44.23022777777778" Latitude="28.260316666666668" Altitude="350"/>
+        <GPS Longitude="44.798458333333336" Latitude="28.244133333333334" Altitude="275"/>
+    </Branch>
+	<Branch SS1="RMEDGI1" SS2="RSTUPI1" country1="RO" country2="RO" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="44.23022777777778" Latitude="28.260316666666668" Altitude="350"/>
+        <GPS Longitude="44.55779166666667" Latitude="28.198611111111113" Altitude="275"/>
+    </Branch>
+	<Branch SS1="RISACC0" SS2="RSTUPI1" country1="RO" country2="RO" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="45.25599166666667" Latitude="28.46096111111111" Altitude="350"/>
+        <GPS Longitude="44.55779166666667" Latitude="28.198611111111113" Altitude="275"/>
+    </Branch>
+	<Branch SS1="RISACC0" SS2="RRAHMA1" country1="RO" country2="RO" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="45.25599166666667" Latitude="28.46096111111111" Altitude="350"/>
+        <GPS Longitude="44.798458333333336" Latitude="28.244133333333334" Altitude="275"/>
+    </Branch>
+	<Branch SS1="RISACC0" SS2="RSMIRD1" country1="RO" country2="RO" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="45.25599166666667" Latitude="28.46096111111111" Altitude="350"/>
+        <GPS Longitude="45.46511944444445" Latitude="27.94955" Altitude="275"/>
+    </Branch>
+	<Branch SS1="RL.SAR" SS2="RSMIRD1" country1="RO" country2="RO" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="45.22347777777778" Latitude="27.858330555555554" Altitude="350"/>
+        <GPS Longitude="45.46511944444445" Latitude="27.94955" Altitude="275"/>
+    </Branch>
+	<Branch SS1="RL.SAR" SS2="RISACC0" country1="RO" country2="RO" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="45.22347777777778" Latitude="27.858330555555554" Altitude="350"/>
+        <GPS Longitude="45.25599166666667" Latitude="28.46096111111111" Altitude="275"/>
+    </Branch>
+	<Branch SS1="RL.SAR" SS2="RGR.IA1" country1="RO" country2="RO" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="45.22347777777778" Latitude="27.858330555555554" Altitude="350"/>
+        <GPS Longitude="44.69411111111111" Latitude="27.764930555555555" Altitude="275"/>
+    </Branch>
+	<Branch SS1="RSMIRD1" SS2="RGUTIN" country1="RO" country2="RO" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS> 
+        <Offset>0</Offset>
+        <GPS Longitude="45.46511944444445" Latitude="27.94955" Altitude="350"/>
+        <GPS Longitude="46.223508333333335" Latitude="26.820025" Altitude="275"/>
+    </Branch>
+	<Branch SS1="RBRASO1" SS2="RGUTIN" country1="RO" country2="RO" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="45.6801" Latitude="25.64211111111111" Altitude="350"/>
+        <GPS Longitude="46.223508333333335" Latitude="26.820025" Altitude="275"/>
+    </Branch>
+	<Branch SS1="RCONST1" SS2="RTARIV1" country1="RO" country2="RO" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="44.20180277777778" Latitude="28.586933333333334" Altitude="350"/>
+        <GPS Longitude="44.585097222222224" Latitude="28.62771111111111" Altitude="275"/>
+    </Branch>
+	<Branch SS1="RTULCE1" SS2="RTARIV1" country1="RO" country2="RO" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="44.585097222222224" Latitude="28.62771111111111" Altitude="350"/>
+        <GPS Longitude="45.15358055555556" Latitude="28.759166666666665" Altitude="275"/>
+    </Branch>
+	<Branch SS1="RTULCE1" SS2="RISACC0" country1="RO" country2="RO" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="45.15358055555556" Latitude="28.759166666666665" Altitude="350"/>
+        <GPS Longitude="45.25599166666667" Latitude="28.46096111111111" Altitude="275"/>
+    </Branch>
+	<Branch SS1="RMEDGI1" SS2="XDO_MG11" country1="RO" country2="BG" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="43.335672" Latitude="27.575005" Altitude="350"/>
+        <GPS Longitude="44.23022777777778" Latitude="28.260316666666668" Altitude="275"/>
+    </Branch>
+	<Branch SS1="RMEDGI1" SS2="XVA_MG11" country1="RO" country2="BG" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="43.31491" Latitude="27.507268" Altitude="350"/>
+        <GPS Longitude="44.23022777777778" Latitude="28.260316666666668" Altitude="275"/>
+    </Branch>
+	<Branch SS1="VDOBRU11" SS2="VVARNA11" country1="BG" country2="BG" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="43.31491" Latitude="27.507268" Altitude="350"/>
+        <GPS Longitude="43.335672" Latitude="27.575005" Altitude="275"/>
+    </Branch>
+	<Branch SS1="VDOBRU11" SS2="VBURGA11" country1="BG" country2="BG" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="42.617393" Latitude="27.356309" Altitude="350"/>
+        <GPS Longitude="43.335672" Latitude="27.575005" Altitude="275"/>
+    </Branch>
+	<Branch SS1="VCAREV11" SS2="VVARNA11" country1="BG" country2="BG" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="43.08709" Latitude="25.535083" Altitude="350"/>
+        <GPS Longitude="43.31491" Latitude="27.507268" Altitude="275"/>
+    </Branch>
+	<Branch SS1="VBURGA11" SS2="VVARNA11" country1="BG" country2="BG" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="42.617393" Latitude="27.356309" Altitude="350"/>
+        <GPS Longitude="43.31491" Latitude="27.507268" Altitude="275"/>
+    </Branch>
+	<Branch SS1="VMIZIA11" SS2="VCAREV11" country1="BG" country2="BG" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="43.08709" Latitude="25.535083" Altitude="350"/>
+        <GPS Longitude="43.26361" Latitude="24.167658" Altitude="275"/>
+    </Branch>
+	<Branch SS1="VTMI2_11" SS2="VBURGA11" country1="BG" country2="BG" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="42.25791" Latitude="26.133857" Altitude="350"/>
+        <GPS Longitude="42.617393" Latitude="27.356309" Altitude="275"/>
+    </Branch>
+	<Branch SS1="VMA_IZ11" SS2="VBURGA11" country1="BG" country2="BG" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="42.12227" Latitude="25.86349" Altitude="350"/>
+        <GPS Longitude="42.617393" Latitude="27.356309" Altitude="275"/>
+    </Branch>
+	<Branch SS1="VTMI2_11" SS2="VTMI3_11" country1="BG" country2="BG" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="42.140916" Latitude="26.005153" Altitude="350"/>
+        <GPS Longitude="42.25791" Latitude="26.133857" Altitude="275"/>
+    </Branch>
+	<Branch SS1="VMA_IZ11" SS2="VTMI3_11" country1="BG" country2="BG" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="42.12227" Latitude="25.86349" Altitude="350"/>
+        <GPS Longitude="42.140916" Latitude="26.005153" Altitude="275"/>
+    </Branch>
+	<Branch SS1="VMA_IZ11" SS2="VTMI1_11" country1="BG" country2="BG" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="42.12227" Latitude="25.86349" Altitude="350"/>
+        <GPS Longitude="42.155718" Latitude="25.909445" Altitude="275"/>
+    </Branch>
+	<Branch SS1="VMA_IZ11" SS2="VPLOVD11" country1="BG" country2="BG" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="42.12227" Latitude="25.86349" Altitude="350"/>
+        <GPS Longitude="42.112679" Latitude="24.769256" Altitude="275"/>
+    </Branch>
+	<Branch SS1="VTMI3_11" SS2="XMI_HA11" country1="BG" country2="TR" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="41.482825" Latitude="27.33837" Altitude="350"/>
+        <GPS Longitude="42.140916" Latitude="26.005153" Altitude="275"/>
+    </Branch>
+	<Branch SS1="XMI_NS11" SS2="GK_NSA11" country1="BG" country2="GR" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="41.100254" Latitude="25.746868" Altitude="350"/>
+        <GPS Longitude="42.12227" Latitude="25.86349" Altitude="275"/>
+    </Branch>
+	<Branch SS1="XNS_BA11" SS2="GK_NSA11" country1="TR" country2="GR" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="41.100254" Latitude="25.746868" Altitude="350"/>
+        <GPS Longitude="41.423698" Latitude=" 27.115984" Altitude="275"/>
+    </Branch>
+	<Branch SS1="VPLOVD11" SS2="VVETRE11" country1="BG" country2="BG" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="42.112679" Latitude="24.769256" Altitude="350"/>
+        <GPS Longitude="42.244175" Latitude="23.934792" Altitude="275"/>
+    </Branch>
+	<Branch SS1="VPLOVD11" SS2="VZLATI11" country1="BG" country2="BG" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="42.112679" Latitude="24.769256" Altitude="350"/>
+        <GPS Longitude="42.704372" Latitude="24.150754" Altitude="275"/>
+    </Branch>
+	<Branch SS1="VHCHAI11" SS2="VVETRE11" country1="BG" country2="BG" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="42.160502" Latitude="23.86121" Altitude="350"/>
+        <GPS Longitude="42.244175" Latitude="23.934792" Altitude="275"/>
+    </Branch>
+	<Branch SS1="VCMOGL11" SS2="VVETRE11" country1="BG" country2="BG" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="42.528652" Latitude="23.004837" Altitude="350"/>
+        <GPS Longitude="42.244175" Latitude="23.934792" Altitude="275"/>
+    </Branch>
+	<Branch SS1="VBLAGO11" SS2="VVETRE11" country1="BG" country2="BG" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="41.964606" Latitude="23.101979" Altitude="350"/>
+        <GPS Longitude="42.244175" Latitude="23.934792" Altitude="275"/>
+    </Branch>
+	<Branch SS1="VBLAGO11" SS2="VCMOGL11" country1="BG" country2="BG" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="41.964606" Latitude="23.101979" Altitude="350"/>
+        <GPS Longitude="42.528652" Latitude="23.004837" Altitude="275"/>
+    </Branch>
+	<Branch SS1="XCM_ST11" SS2="VCMOGL11" country1="MK" country2="BG" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="41.7747788" Latitude="22.1738325" Altitude="350"/>
+        <GPS Longitude="42.528652" Latitude="23.004837" Altitude="275"/>
+    </Branch>
+	<Branch SS1="XBG_TH11" SS2="GKLAG11" country1="BG" country2="GR" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="40.789662" Latitude="23.047391" Altitude="350"/>
+        <GPS Longitude="41.964606" Latitude="23.101979" Altitude="275"/>
+    </Branch>
+	<Branch SS1="VCMOGL11" SS2="VSOFIZ11" country1="BG" country2="BG" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="42.528652" Latitude="23.004837" Altitude="350"/>
+        <GPS Longitude="42.84928" Latitude="23.18986" Altitude="275"/>
+    </Branch>
+	<Branch SS1="XSO_NI11" SS2="VSOFIZ11" country1="RS" country2="BG" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="43.288181587" Latitude="21.9728960814" Altitude="350"/>
+        <GPS Longitude="42.84928" Latitude="23.18986" Altitude="275"/>
+    </Branch>
+	<Branch SS1="VSTOLN11" SS2="VZLATI11" country1="BG" country2="BG" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="42.704372" Latitude="24.150754" Altitude="350"/>
+        <GPS Longitude="42.723165" Latitude="23.619517" Altitude="275"/>
+    </Branch>
+	<Branch SS1="VSTOLN11" SS2="VMETAL11" country1="BG" country2="BG" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="42.778967" Latitude="23.525373" Altitude="350"/>
+        <GPS Longitude="42.723165" Latitude="23.619517" Altitude="275"/>
+    </Branch>
+	<Branch SS1="VSOFIZ11" SS2="VMETAL11" country1="BG" country2="BG" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="42.778967" Latitude="23.525373" Altitude="350"/>
+        <GPS Longitude="42.84928" Latitude="23.18986" Altitude="275"/>
+    </Branch>
+	<Branch SS1="VMIZIA11" SS2="VSTOLN11" country1="BG" country2="BG" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="42.723165" Latitude="23.619517" Altitude="350"/>
+        <GPS Longitude="43.26361" Latitude="24.167658" Altitude="275"/>
+    </Branch>
+	<Branch SS1="VMIZIA11" SS2="VAECKO11" country1="BG" country2="BG" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="43.746145" Latitude="23.776252" Altitude="350"/>
+        <GPS Longitude="43.26361" Latitude="24.167658" Altitude="275"/>
+    </Branch>
+	<Branch SS1="VSOFIZ11" SS2="VAECKO11" country1="BG" country2="BG" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="43.746145" Latitude="23.776252" Altitude="350"/>
+        <GPS Longitude="42.84928" Latitude="23.18986" Altitude="275"/>
+    </Branch>
+	<Branch SS1="XKO_TI11" SS2="VAECKO11" country1="RO" country2="BG" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="43.746145" Latitude="23.776252" Altitude="350"/>
+        <GPS Longitude="44.61324722222222" Latitude="23.490377777777777" Altitude="275"/>
+    </Branch>
+	<Branch SS1="RGUTIN" SS2="RBACAU1" country1="RO" country2="RO" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="46.223694" Latitude="26.821306" Altitude="350"/>
+        <GPS Longitude="46.54023333333333" Latitude="26.951241666666668" Altitude="275"/>
+    </Branch>
+    <Branch SS1="RBACAU1" SS2="RROMAN1" country1="RO" country2="RO" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="46.96174444444444" Latitude="26.926205555555555" Altitude="350"/>
+        <GPS Longitude="46.54023333333333" Latitude="26.951241666666668" Altitude="275"/>
+    </Branch>
+   <Branch SS1="RSUCEA" SS2="RROMAN1" country1="RO" country2="RO" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="46.96174444444444" Latitude="26.926205555555555" Altitude="350"/>
+        <GPS Longitude="47.619239" Latitude="26.243867" Altitude="275"/>
+    </Branch>
+ <Branch SS1="RSUCEA" SS2="RGADAL1" country1="RO" country2="RO" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="46.8169637957" Latitude="23.856705592405" Altitude="350"/>
+        <GPS Longitude="47.619239" Latitude="26.243867" Altitude="275"/>
+    </Branch>
+  	<Branch SS1="RIERNU" SS2="RGADAL1" country1="RO" country2="RO" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="46.46613055555556" Latitude="24.183425" Altitude="350"/>
+        <GPS Longitude="46.8169637957" Latitude="23.856705592405" Altitude="275"/>
+    </Branch>
+	<Branch SS1="RIERNU" SS2="RSIBIU" country1="RO" country2="RO" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="45.78541111111111" Latitude="24.194469444444444" Altitude="350"/>
+        <GPS Longitude="46.46613055555556" Latitude="24.183425" Altitude="275"/>
+    </Branch>
+	<Branch SS1="RGADAL1" SS2="RCLUJ 1" country1="RO" country2="RO" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="46.795880555555556" Latitude="23.638791666666666" Altitude="350"/>
+        <GPS Longitude="46.8169637957" Latitude="23.856705592405" Altitude="275"/>
+    </Branch>
+	<Branch SS1="RGADAL1" SS2="RROSIO" country1="RO" country2="RO" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="46.8169637957" Latitude="23.856705592405" Altitude="275"/>
+        <GPS Longitude="47.70886111111111" Latitude="23.221416666666666" Altitude="350"/>
+    </Branch>
+    	<Branch SS1="RORADE1" SS2="RROSIO" country1="RO" country2="RO" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="47.02167222222222" Latitude="21.94723611111111" Altitude="275"/>
+        <GPS Longitude="47.70886111111111" Latitude="23.221416666666666" Altitude="350"/>
+    </Branch>
+    	<Branch SS1="RORADE1" SS2="RNADAB1" country1="RO" country2="RO" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="47.02167222222222" Latitude="21.94723611111111" Altitude="275"/>
+        <GPS Longitude="46.465808333333335" Latitude="21.526363888888888" Altitude="350"/>
+    </Branch>
+    	<Branch SS1="RMINTI" SS2="RSIBIU" country1="RO" country2="RO" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="45.78541111111111" Latitude="24.194469444444444" Altitude="275"/>
+        <GPS Longitude="45.91692777777778" Latitude="22.83254722222222" Altitude="350"/>
+    </Branch>
+    	<Branch SS1="RMINTI" SS2="RARAD 1" country1="RO" country2="RO" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="46.18408888888889" Latitude="21.379208333333334" Altitude="275"/>
+        <GPS Longitude="45.91692777777778" Latitude="22.83254722222222" Altitude="350"/>
+    </Branch>
+    <Branch SS1="RNADAB1" SS2="RARAD 1" country1="RO" country2="RO" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="46.18408888888889" Latitude="21.379208333333334" Altitude="275"/>
+        <GPS Longitude="46.465808333333335" Latitude="21.526363888888888" Altitude="350"/>
+    </Branch>
+    <Branch SS1="RTIMIS" SS2="RRESIT" country1="RO" country2="RO" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="45.344588888888886" Latitude="21.921391666666665" Altitude="275"/>
+        <GPS Longitude="45.74275" Latitude="21.281916666666667" Altitude="350"/>
+    </Branch>
+    <Branch SS1="RSACAL" SS2="RRESIT" country1="RO" country2="RO" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="45.344588888888886" Latitude="21.921391666666665" Altitude="275"/>
+        <GPS Longitude="45.760419444444445" Latitude="21.158808333333333" Altitude="350"/>
+    </Branch>
+    <Branch SS1="RARAD 1" SS2="RTIMIS" country1="RO" country2="RO" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="45.74275" Latitude="21.281916666666667" Altitude="275"/>
+        <GPS Longitude="46.18408888888889" Latitude="21.379208333333334" Altitude="350"/>
+    </Branch>
+    <Branch SS1="RARAD 1" SS2="RCARAD1" country1="RO" country2="RO" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="45.818622222222224" Latitude="21.1761" Altitude="275"/>
+        <GPS Longitude="46.18408888888889" Latitude="21.379208333333334" Altitude="350"/>
+    </Branch>
+    <Branch SS1="RARAD 1" SS2="XSA_AR11" country1="RO" country2="RO" NominalVoltage="400" ID="123456787">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer_MVA>1050</ThermalLimit_summer_MVA>
+        <ThermalLimit_winter_MVA>1250</ThermalLimit_winter_MVA>
+        <Length_Country1_km>28</Length_Country1_km>
+        <Length_Country2_km>69</Length_Country2_km>
+        <R_Ohm>2.76</R_Ohm>
+        <X_Ohm>0.4</X_Ohm>
+        <S_uS>50</S_uS>
+        <Offset>0</Offset>
+        <GPS Longitude="46.3065883" Latitude="20.1280291" Altitude="275"/>
+        <GPS Longitude="46.18408888888889" Latitude="21.379208333333334" Altitude="350"/>
+    </Branch>
+
+</data_branches_input>

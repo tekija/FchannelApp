@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Quick Start - Leaflet</title>
+
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
+    <!-- <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script> -->
+
+
+	
+</head>
+<body>
+
+
+
+<div id="map" style="width: 1000px; height: 800px;"></div>
+	<script type="text/javascript" src="leaflet.js"></script>
+
+	<script type="text/javascript" src="leaflet.timedimension.js"></script>
+	<script type="text/javascript" src="leaflet.timedimension.util.js"></script>
+	<script type="text/javascript" src="leaflet.timedimension.layer.js"></script>
+	<script type="text/javascript" src="leaflet.timedimension.layer.geojson.js"></script>
+	<script type="text/javascript" src="leaflet.timedimension.player.js"></script>
+	<script type="text/javascript" src="leaflet.timedimension.control.js"></script>
+	<script type="text/javascript" src="leaflet.timedimension.js"></script>
+	<script type="text/javascript" src="leaflet.timedimension.util.js"></script>
+	<script type="text/javascript" src="leaflet.timedimension.layer.js"></script>
+	<script type="text/javascript" src="leaflet.timedimension.layer.geojson.js"></script>
+	<script type="text/javascript" src="leaflet.timedimension.player.js"></script>
+	<script type="text/javascript" src="leaflet.timedimension.control.js"></script>
+	<script type="text/javascript" src="leaflet.timedimension.tilelayer.portus.js"></script>
+	<script type="text/javascript" src="https://cdn.rawgit.com/nezasa/iso8601-js-period/master/iso8601.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<script>
+
+            var oReq = new XMLHttpRequest();
+            oReq.addEventListener("load", (function(xhr) {
+                var code = xhr.currentTarget.response;
+                var codeBlock = document.getElementById("code");
+                codeBlock.textContent = code;
+                hljs.highlightBlock(codeBlock);
+            }));
+            oReq.open("GET", "http://localhost/jsons/blayer.js");
+            oReq.send();
+            var oReq = new XMLHttpRequest();
+            oReq.addEventListener("load", (function(xhr) {
+                var code = xhr.currentTarget.response;
+                var codeBlock = document.getElementById("code-portus");
+                codeBlock.textContent = code;
+                hljs.highlightBlock(codeBlock);
+            }));
+            oReq.open("GET", "http://localhost/jsons/leaflet.timedimension.tilelayer.portus.js");
+            oReq.send();
+			
+
+
+
+</script>
+
+
+
+</body>
+</html>

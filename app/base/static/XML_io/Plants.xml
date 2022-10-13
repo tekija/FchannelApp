@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<data_Plants>
+<Plant name="Wind Park 1" Plant_Type="WindPark/SolarPark" Up_Aggregation_Level_Type= "Zone/TSO/DSO/BRP/RSC/LocalCommunity/Custom" Up_Aggregation_Level_Name= "" id="">
+  <TotalInstalledCapacity_MW>350</TotalInstalledCapacity_MW>
+  <GPS Altitude="275" Latitude="20.385737" Longitude="44.821827" />
+  <GPS Altitude="275" Latitude="20.386519" Longitude="44.823492" />
+  <GPS Altitude="275" Latitude="20.383021" Longitude="44.824255" />
+  <GPS Altitude="275" Latitude="20.382731" Longitude="44.823527" />
+  <GPS Altitude="275" Latitude="20.381915" Longitude="44.823659" />
+  <GPS Altitude="275" Latitude="20.381584" Longitude="44.822875" />
+  <GPS Altitude="275" Latitude="20.385737" Longitude="44.821827" />
+</Plant>
+</data_Plants>

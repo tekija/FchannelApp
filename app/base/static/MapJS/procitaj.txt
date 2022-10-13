@@ -1,0 +1,49 @@
+u fajlu maptd.js linija 265 definise lokaciju i zoom
+nivo mape prilikom prvog ucitavanja
+
+lokacija za GR i CY
+map.setView([36,29], 6);
+function zoomCYGR() {
+  map.setView([36,29], 6);
+}
+
+lokacija za peloponez i krit
+map.setView([37,25], 7);
+function zoomCretePelop() {
+  map.setView([37,25], 7);
+}
+
+lokacija za krit
+map.setView([35,25.5], 8.3);
+function zoomCrete() {
+  map.setView([35,25.5], 8.3);
+}
+
+bazicna mapa se manja u maptd.js red 322-325
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> contributors</a>'
+        }).addTo(map);
+
+        sta se od wms lejera odmah prikazuje definise se u baselayer-gs linije koda 
+       iza 970, odnosno
+        var tooltip = L.tooltip({
+                    direction: 'center',
+                    permanent: true,
+                    interactive: true,
+                    noWrap: true,
+                    opacity: 0.9
+                });
+    kod izgleda:
+        sapoHeightTimeLayer.addTo(map);
+        t2mTimeLayer.addTo(map);
+        tpTimeLayer.addTo(map);
+        vsTimeLayer.addTo(map);
+        vbTimeLayer.addTo(map);
+
+        Sta su tacno, odnosno sta znace sledece skracenice:
+        W2U clouds-wms cloudness
+        W2U t2m-wms temperature
+        W2U tp-wms total precipitations
+        W2U ws-wms wind speed
+        W2U wbarbs-wms wind barbs

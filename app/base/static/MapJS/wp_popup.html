@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- <script src='sql-wasm.js'></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.5.0/sql-wasm.js" integrity="sha512-dsyusvfMidFZ0Vttbk7YXRAxaO++5nU1vuFtGMK2MNPr8qDzz0e5IahYWSJkzZcNXn18E1OHP6Oa13nRIwT0zg==" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.5.0/sql-asm-debug.js" integrity="sha512-v+q9i5QaoZ6JiVU/fbSkTpgTyz89NhwNQNSKXYOOxkGLaJWzPs3+U3Ff147WJgcEGdl6bsMAJNrFFJT0shqHnA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.5.0/sql-asm-debug.min.js" integrity="sha512-CbE8i3g/46mM1hzSXV7ZhiWiH9E3n/PnQyWh1b3SbZRU2g6GdsS4isQSxnEcpVuzOEoaBazcV0Amx3ALvYo8+A==" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.5.0/sql-asm.js" integrity="sha512-GN8WQXcR3hdXTb8HOdRDGo/ZQ/us0It56dfpV9vW5aENM5WNE6njSDzyCyQfd73jcoG5u1SYpPrNQ3XRfgxH1Q==" crossorigin="anonymous"></script>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial;}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+</style>
+<script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+<!-- <script src='sql-wasm.js'></script> -->
+<script src='functions.js'></script>
+
+</head>
+<!-- onload="openG(event,'Turbine')" -->
+<body >
+    <div class="tab">
+        <button class="tablinks active" id="Turbutton" onclick="openG(event, 'Turbine')">Turbine</button>
+        <button class="tablinks" onclick="openG(event, 'Plant')">Plant</button>
+        <button class="tablinks" id="WDButton" onclick="openG(event, 'wd')">Wind Rose</button>
+        <button class="tablinks" id="WpwButton" onclick="openG(event, 'wpw')">P</button>
+        <button class="tablinks" id="WpcButton" onclick="openG(event, 'wpc')">Cp</button>
+    </div>
+    
+<div id="Turbine" class="tabcontent" style=display:block>
+    <div> <div id='myDiv'></div> </div>
+</div>
+
+<div id="Plant" class="tabcontent" style=display:block>
+    <div> <div id='myDiv1'></div> </div>
+</div>
+
+<div id="wd" class="tabcontent" style=display:block>
+    <div> <div id='myDiv2'></div> </div>
+</div>
+
+<div id="wpw" class="tabcontent" style=display:block>
+    <div> <div id='myDiv3'></div> </div>
+</div>
+<div id="wpc" class="tabcontent" style=display:block>
+  <div> <div id='myDiv4'></div> </div>
+</div>
+  
+<script>
+function openG(evt, Name) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(Name).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+var wg_txt = location.href.split('?')[1].split('&')[0].split('=')[1];
+var zoom_txt = location.href.split('?')[2].split('&')[0].split('=')[1];
+var zint=parseInt(zoom_txt)
+
+if (zint<12) {
+  document.getElementById("Turbine").style.display = "none";
+  document.getElementById("Turbutton").style.display = "none";
+  document.getElementById("wd").style.display = "none";
+  document.getElementById("WDButton").style.display = "none";
+  document.getElementById("wpw").style.display = "none";
+  document.getElementById("WpwButton").style.display = "none";
+  document.getElementById("wpc").style.display = "none";
+  document.getElementById("WpcButton").style.display = "none";
+
+} else
+{
+  document.getElementById("wd").style.display = "none";
+  document.getElementById("wpw").style.display = "none";
+  document.getElementById("wpc").style.display = "none";
+  document.getElementById("Plant").style.display = "none";
+
+}
+
+load_pl_wind(wg_txt)
+
+ </script>
+   
+</body>
+</html> 

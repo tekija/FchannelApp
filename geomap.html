@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Energoinfo GeoMap 1</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='LeafletJS/leaflet.css') }}"></script>
+  <link rel="stylesheet" href="{{ url_for('static', filename='OpenWeatherJS/leaflet-openweathermap.css') }}"></script>
+  <link rel="stylesheet" href="{{ url_for('static', filename='MapJS/maptd.css') }}"></script>
+  <!-- <script type="text/javascript" src="{{ url_for('static', filename='leaflet.timedimension.control.css') }}"></script> -->
+  <slink rel="stylesheet" href="{{ url_for('static', filename='MapJS/MarkerCluster.Default.css') }}"></script>
+  <!-- <script type="text/javascript" src="{{ url_for('static', filename='MapJS/MarkerCluster') }}"></script> -->
+
+	<link rel="SHORTCUT ICON" HREF="Europan_icon.ico">
+	<!-- <link rel="stylesheet" type="text/css" href="LeafletJS/leaflet.css" /> -->
+	<!-- <link rel="stylesheet" type="text/css" href="OpenWeatherJS/leaflet-openweathermap.css" />
+  <link rel="stylesheet" type="text/css" href="MapJS/maptd.css" />
+  <link rel="stylesheet" href="leaflet.timedimension.control.css" />
+  <link rel="stylesheet" href="MapJS/MarkerCluster.Default.css" />
+  <link rel="stylesheet" href="MapJS/MarkerCluster" /> -->
+
+
+  <script type="text/javascript" src="{{ url_for('static', filename='LeafletJS/leaflet.js') }}"></script>
+  <script type="text/javascript" src="{{ url_for('static', filename='LeafletJS/Permalink.js') }}"></script>
+  <script type="text/javascript" src="{{ url_for('static', filename='LeafletJS/Permalink.Layer.js') }}"></script>
+  <script type="text/javascript" src="{{ url_for('static', filename='LeafletJS/Permalink.Overlay.js') }}"></script>
+  <script type="text/javascript" src="{{ url_for('static', filename='OpenWeatherJS/leaflet-openweathermap.js') }}"></script>
+  <link rel="stylesheet" href="{{ url_for('static', filename='LeafletJS/leaflet-languageselector.css') }}"></script>
+  <script type="text/javascript" src="{{ url_for('static', filename='LeafletJS/leaflet-languageselector.js') }}"></script>
+  <script type="text/javascript" src="{{ url_for('static', filename='MapJS/map_i18n.js') }}"></script>
+  <script type="text/javascript" src="{{ url_for('static', filename='MapJS/baselayers-gs.js') }}"></script>
+
+	<!-- <script src="LeafletJS/leaflet.js"></script> -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/leaflet.nontiledlayer@1.0.7/dist/NonTiledLayer.js"></script>
+	<!-- <script src="LeafletJS/Permalink.js"></script> -->
+	<!-- <script src="LeafletJS/Permalink.Layer.js"></script> -->
+	<!-- <script src="LeafletJS/Permalink.Overlay.js"></script> -->
+	<!-- <script src="OpenWeatherJS/leaflet-openweathermap.js"></script> -->
+	<!-- <link rel="stylesheet" type="text/css" href="LeafletJS/leaflet-languageselector.css" /> -->
+	<!-- <script src="LeafletJS/leaflet-languageselector.js"></script> -->
+	<!-- <script src="MapJS/map_i18n.js"></script> -->
+  <script type="text/javascript" src="{{ url_for('static', filename='MapJS/mapdata.js') }}"></script>
+
+	<!-- <script src="MapJS/mapdata.js"></script> -->
+  <!-- <script src="MapJS/baselayers-gs.js"></script> -->
+
+
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	
+	<script src="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/leaflet-polylineoffset@1.1.1/leaflet.polylineoffset.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css"/>
+	
+	<script src="https://rawcdn.githack.com/ardhi/Leaflet.MousePosition/c32f1c84/src/L.Control.MousePosition.js"></script>
+  <link rel="stylesheet" href="https://rawcdn.githack.com/ardhi/Leaflet.MousePosition/c32f1c84/src/L.Control.MousePosition.css"/>
+  <script src="https://rawcdn.githack.com/ljagis/leaflet-measure/2.1.7/dist/leaflet-measure.js"></script>
+  <link rel="stylesheet" href="https://rawcdn.githack.com/ljagis/leaflet-measure/2.1.7/dist/leaflet-measure.css"/>
+  <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+  <script type="text/javascript" src="{{ url_for('static', filename='MapJS/sql-wasm.js') }}"></script>
+  <script type="text/javascript" src="{{ url_for('static', filename='MapJS/leaflet.markercluster-src.js') }}"></script>
+
+	<!-- <script src='MapJS/sql-wasm.js'></script>
+  <script src='MapJS/leaflet.markercluster-src.js'></script> -->
+
+
+	
+<!-- Load an icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
+<style>
+  a.leaflet-control-timecontrol.timecontrol-date {
+      width: 120px;
+      padding-left: 30px !important;
+      font-weight: bold;
+  }
+  .leaflet-touch .timecontrol-slider .slider {
+      margin-top: 14px;
+  }
+  .timecontrol-slider .slider {
+      margin-left: 10px;
+      height: 2px;
+      border-color: #000;
+  }
+  .timecontrol-slider .knob {
+      width: 14px;
+      height: 14px;
+      border-radius: 7px;
+      margin-top: -7px;
+      margin-left: -12px;
+      border: 0px;
+      background-color: #000;
+  }
+  .sidebar {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+}
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+} 
+
+  </style>
+
+	
+	
+</head>
+
+<div id="mySidebar" class="sidebar">
+  <script>
+    function openNav() {
+      document.getElementById("mySidebar").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidebar").style.width = "0";
+      document.getElementById("main").style.marginLeft= "0";
+    }
+
+    </script>
+
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <!-- The sidebar with the tree view -->
+  <ul id="myUL">
+
+    <li><span class="caret">GRID VIEW SELECTOR</span>
+      <ul class="nested">
+        <li><span class="caret">Transmission Grid</span>
+       <ul class="nested">
+          <li><a onclick="zoomEurope()" href="javascript:void(0);"><i class="fa fa-fw fa-home"></i> Europe</a></li>
+        <li><a onclick="zoomRegion()" href="javascript:void(0);"><i class="fa fa-fw fa-home"></i> SEE Region</a></li>
+        <li><a onclick="zoomGreece()" href="javascript:void(0);"><i class="fa fa-fw fa-home"></i> Greece</a></li>
+            <li><a onclick="zoomRomania()" href="javascript:void(0);"><i class="fa fa-fw fa-home"></i> Romania</a></li>
+        <li><a onclick="zoomBulgaria()" href="javascript:void(0);"><i class="fa fa-fw fa-home"></i> Bulgaria</a></li>
+         </ul>
+         </li>
+        <li><span class="caret">POIs</span>
+       <ul class="nested">
+            <li><a onclick="zoomBeograd_5()" href="javascript:void(0);"><i class="fa fa-bolt"></i> SS Beograd 5</a></li>
+                <li><a onclick="zoomObrenovac()" href="javascript:void(0);"><i class="fa fa-bolt"></i> SS Obrenovac</a></li>
+                <li><a onclick="zoomPancevo()" href="javascript:void(0);"><i class="fa fa-bolt"></i> SS Pančevo</a></li>
+                <li><a href="#"><i class="fa fa-bolt"></i> Substation 4</a></li>
+          <li><a href="#"><i class="fa fa-bolt"></i> Substation 5</a></li>
+          <li><a href="#"><i class="fa fa-bolt"></i> Substation 6</a></li>
+          <li><a href="#"><i class="fa fa-bolt"></i> Substation 7</a></li>
+          <li><a href="#"><i class="fa fa-bolt"></i> Substation 8</a></li>
+          <li><a href="#"><i class="fa fa-bolt"></i> Substation 9</a></li>
+          <li><a href="#"><i class="fa fa-bolt"></i> Substation 10</a></li>
+              </ul>
+            </li>
+        <li><span class="caret">OHL sites</span>
+       <ul class="nested">
+            <li><a href="#"><i class="fa fa-bolt"></i> OHL DLR 1</a></li>
+            <li><a href="#"><i class="fa fa-bolt"></i> OHL DLR 2</a></li>
+            <li><a href="#"><i class="fa fa-bolt"></i> OHL DLR 3</a></li>
+            <li><a href="#"><i class="fa fa-bolt"></i> OHL DLR 4</a></li>
+            <li><a href="#"><i class="fa fa-bolt"></i> OHL DLR 5</a></li>
+            <li><a href="#"><i class="fa fa-bolt"></i> OHL DLR 6</a></li>
+            <li><a href="#"><i class="fa fa-bolt"></i> OHL DLR 7</a></li>
+            <li><a href="#"><i class="fa fa-bolt"></i> OHL DLR 8</a></li>
+            <li><a href="#"><i class="fa fa-bolt"></i> OHL DLR 9</a></li>
+            <li><a href="#"><i class="fa fa-bolt"></i> OHL DLR 10</a></li>
+              </ul>
+            </li>      
+        <li><span class="caret">Distributed Generation</span>
+       <ul class="nested">
+            <li><a href="#"><i class="fa fa-plug"></i> DDG 1</a></li>
+            <li><a href="#"><i class="fa fa-plug"></i> DDG 2</a></li>
+            <li><a href="#"><i class="fa fa-plug"></i> DDG 3</a></li>
+            <li><a href="#"><i class="fa fa-plug"></i> DDG 4</a></li>
+            <li><a href="#"><i class="fa fa-plug"></i> DDG 5</a></li>
+            <li><a href="#"><i class="fa fa-plug"></i> DDG 6</a></li>
+            <li><a href="#"><i class="fa fa-plug"></i> DDG 7</a></li>
+            <li><a href="#"><i class="fa fa-plug"></i> DDG 8</a></li>
+            <li><a href="#"><i class="fa fa-plug"></i> DDG 9</a></li>
+            <li><a href="#"><i class="fa fa-plug"></i> DDG 10</a></li>
+              </ul>
+            </li>
+           <li><span class="caret">Conventional Generation Units</span>
+          <ul class="nested">
+              <li><span class="caret">TPP</span>
+       <ul class="nested">
+            <li><a href="#"><i class="fa fa-bolt"></i> TPP 1</a></li>
+            <li><a href="#"><i class="fa fa-bolt"></i> TPP 2</a></li>
+            <li><a href="#"><i class="fa fa-bolt"></i> TPP 3</a></li>
+            <li><a href="#"><i class="fa fa-bolt"></i> TPP 4</a></li>
+            <li><a href="#"><i class="fa fa-bolt"></i> TPP 5</a></li>
+            <li><a href="#"><i class="fa fa-bolt"></i> TPP 6</a></li>
+            <li><a href="#"><i class="fa fa-bolt"></i> TPP 7</a></li>
+            <li><a href="#"><i class="fa fa-bolt"></i> TPP 8</a></li>
+            <li><a href="#"><i class="fa fa-bolt"></i> TPP 9</a></li>
+            <li><a href="#"><i class="fa fa-bolt"></i> TPP 10</a></li>
+              </ul>
+            </li>   
+                    <li><span class="caret">NPP</span>
+       <ul class="nested">
+            <li><a href="#"><i class="fa fa-bolt"></i> NPP 1</a></li>
+            <li><a href="#"><i class="fa fa-bolt"></i> NPP 2</a></li>
+            <li><a href="#"><i class="fa fa-bolt"></i> NPP 3</a></li>
+            <li><a href="#"><i class="fa fa-bolt"></i> NPP 4</a></li>
+            <li><a href="#"><i class="fa fa-bolt"></i> NPP 5</a></li>
+            <li><a href="#"><i class="fa fa-bolt"></i> NPP 6</a></li>
+            <li><a href="#"><i class="fa fa-bolt"></i> NPP 7</a></li>
+            <li><a href="#"><i class="fa fa-bolt"></i> NPP 8</a></li>
+            <li><a href="#"><i class="fa fa-bolt"></i> NPP 9</a></li>
+            <li><a href="#"><i class="fa fa-bolt"></i> NPP 10</a></li>
+              </ul>
+            </li> 
+                        <li><span class="caret">HPP</span>
+       <ul class="nested">
+            <li><a href="#"><i class="fa fa-bolt"></i> HPP 1</a></li>
+            <li><a href="#"><i class="fa fa-bolt"></i> HPP 2</a></li>
+            <li><a href="#"><i class="fa fa-bolt"></i> HPP 3</a></li>
+            <li><a href="#"><i class="fa fa-bolt"></i> HPP 4</a></li>
+            <li><a href="#"><i class="fa fa-bolt"></i> HPP 5</a></li>
+            <li><a href="#"><i class="fa fa-bolt"></i> HPP 6</a></li>
+            <li><a href="#"><i class="fa fa-bolt"></i> HPP 7</a></li>
+            <li><a href="#"><i class="fa fa-bolt"></i> HPP 8</a></li>
+            <li><a href="#"><i class="fa fa-bolt"></i> HPP 9</a></li>
+            <li><a href="#"><i class="fa fa-bolt"></i> HPP 10</a></li>
+              </ul>
+            </li> 
+                    <li><span class="caret">CHP</span>
+       <ul class="nested">
+            <li><a href="#"><i class="fa fa-industry"></i> CHP 1</a></li>
+            <li><a href="#"><i class="fa fa-industry"></i> CHP 2</a></li>
+            <li><a href="#"><i class="fa fa-industry"></i> CHP 3</a></li>
+            <li><a href="#"><i class="fa fa-industry"></i> CHP 4</a></li>
+            <li><a href="#"><i class="fa fa-industry"></i> CHP 5</a></li>
+            <li><a href="#"><i class="fa fa-industry"></i> CHP 6</a></li>
+            <li><a href="#"><i class="fa fa-industry"></i> CHP 7</a></li>
+            <li><a href="#"><i class="fa fa-industry"></i> CHP 8</a></li>
+            <li><a href="#"><i class="fa fa-industry"></i> CHP 9</a></li>
+            <li><a href="#"><i class="fa fa-industry"></i> CHP 10</a></li>
+              </ul>
+            </li> 
+                      <li><span class="caret">Solar</span>
+              <ul class="nested">
+                <li><a href="#"><i class="fa fa-sun-o"></i> Solar Park 1</a></li>
+                <li><a href="#"><i class="fa fa-sun-o"></i> Solar Park 2</a></li>
+                <li><a href="#"><i class="fa fa-sun-o"></i> Solar Park 3</a></li>
+                <li><a href="#"><i class="fa fa-sun-o"></i> Solar Park 4</a></li>
+                <li><a href="#"><i class="fa fa-sun-o"></i> Solar Park 5</a></li>
+                <li><a href="#"><i class="fa fa-sun-o"></i> Solar Park 6</a></li>
+                <li><a href="#"><i class="fa fa-sun-o"></i> Solar Park 7</a></li>
+                <li><a href="#"><i class="fa fa-sun-o"></i> Solar Park 8</a></li>
+                <li><a href="#"><i class="fa fa-sun-o"></i> Solar Park 9</a></li>
+                <li><a href="#"><i class="fa fa-sun-o"></i> Solar Park 10</a></li>
+             </ul>
+            </li>
+            <li><span class="caret">Wind</span>
+              <ul class="nested">
+                <li><a href="#"><i class="fa fa-bolt"></i> Wind Park 1</a></li>
+                <li><a href="#"><i class="fa fa-bolt"></i> Wind Park 2</a></li>
+                <li><a href="#"><i class="fa fa-bolt"></i> Wind Park 3</a></li>
+                <li><a href="#"><i class="fa fa-bolt"></i> Wind Park 4</a></li>
+                <li><a href="#"><i class="fa fa-bolt"></i> Wind Park 5</a></li>
+                <li><a href="#"><i class="fa fa-bolt"></i> Wind Park 6</a></li>
+                <li><a href="#"><i class="fa fa-bolt"></i> Wind Park 7</a></li>
+                <li><a href="#"><i class="fa fa-bolt"></i> Wind Park 8</a></li>
+                <li><a href="#"><i class="fa fa-bolt"></i> Wind Park 9</a></li>
+                <li><a href="#"><i class="fa fa-bolt"></i> Wind Park 10</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+            <li><span class="caret">Aggregations</span>
+          <ul class="nested">
+        <li><a href="#"><i class="fa fa-bolt"></i> DSO topological aggregation layer</a></li>
+        <li><a href="#"><i class="fa fa-bolt"></i> TSO topological aggregation layer</a></li>
+            <li><a href="#"><i class="fa fa-bolt"></i> Balancing Groups topological aggregation layer</a></li>
+        <li><a href="#"><i class="fa fa-bolt"></i> Other aggregation layers</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+      <li><span class="caret">EUROPAN SCRIPTS</span>
+      <ul class="nested">
+        <li><span class="caret">Weather</span>
+       <ul class="nested">
+        <li><a href="#"><i class="fa cloud-showers-heavy"></i> Video ON</a></li>
+        <li><a href="#"><i class="fa cloud-showers-heavy"></i> Video OFF</a></li>
+         </ul>
+         </li>
+        <li><span class="caret">Power System Analysis</span>
+     <ul class="nested">
+         <li><input class="input1" type="button" id='script' name="scriptbutton" value=" Run Script 1" onclick=""></li><br>
+             <li><input class="input1" type="button" id='script' name="scriptbutton" value=" Run Script 2" onclick=""></li><br>
+             <li><input class="input1" type="button" id='script' name="scriptbutton" value=" Run Script 3" onclick=""></li><br>
+             <li><input class="input1" type="button" id='script' name="scriptbutton" value=" Run Script 4" onclick=""></li><br>
+          <li><input class="input1" type="button" id='script' name="scriptbutton" value=" Run Script 4" onclick=""></li><br>
+                  </ul>
+            </li>
+  
+             <li><span class="caret">Run XML-test.py</span>
+             <ul class="nested">
+             <li><input class="input1" type="button" id='script' name="scriptbutton" value="Run Script 10" onclick="goPython()"></li><br>
+  
+      <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  
+      <script>
+          function goPython(){
+              $.ajax({
+                url: "http://europanapp.net/cgi-bin/XML-test.py",
+               context: document.body
+              }).done(function() {
+               alert('Calculation finished succesfully!');;
+              });
+          }
+      </script>
+             </ul>
+              </li>
+           
+           
+     </ul>
+     </li>
+  </ul>
+  
+  </div>
+<div id="main">
+  
+    <button class="openbtn" onclick="openNav()">Open Sidebar</button>
+    <label id="label_home" style="color:blue;font-size:20px ; border: 3px solid blue"></label>
+    <label id="label_updated" style=" color:blue;font-size:20px ; border: 3px solid ;color:blue"></label>
+    <label id="label_UCT" style=" color:blue;font-size:20px ; border: 3px solid blue"> all times UTC</label>
+
+     <div class='custom-popup' id='map'></div>
+    <!-- <script src="MapJS/maptd.js"></script> -->
+    <!-- <script src="MapJS/functions.js"></script> -->
+    <script type="text/javascript" src="{{ url_for('static', filename='MapJS/functions.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='MapJS/maptd.js') }}"></script>
+
+    <script src= 
+    "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> 
+        </script> 
+       <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.fullscreen/1.4.2/Control.FullScreen.min.js"></script>
+     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/leaflet.nontiledlayer@1.0.7/dist/NonTiledLayer.js"></script>
+     <script type="text/javascript" src="https://stamen-maps.a.ssl.fastly.net/js/tile.stamen.js"></script> -->
+     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/dateformat@3.0.3/lib/dateformat.js"></script>
+     <!-- <script type="text/javascript" src="td/heatmap.js"></script> -->
+     <script type="text/javascript" src="{{ url_for('static', filename='td/heatmap.js') }}"></script>
+
+     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/leaflet-heatmap@1.0.0/leaflet-heatmap.min.js"></script>
+     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/iso8601-js-period@0.2.1/iso8601.min.js"></script>
+     <script type="text/javascript" src="{{ url_for('static', filename='td/leaflet.timedimension.js') }}"></script>
+     <script type="text/javascript" src="{{ url_for('static', filename='td/leaflet.timedimension.util.js') }}"></script>
+     <script type="text/javascript" src="{{ url_for('static', filename='td/leaflet.timedimension.layer.js') }}"></script>
+     <script type="text/javascript" src="{{ url_for('static', filename='td/leaflet.timedimension.layer.wms.js') }}"></script>
+     <script type="text/javascript" src="{{ url_for('static', filename='td/leaflet.timedimension.layer.geojson.js') }}"></script>
+     <script type="text/javascript" src="{{ url_for('static', filename='td/leaflet.timedimension.player.js') }}"></script>
+     <script type="text/javascript" src="{{ url_for('static', filename='td/leaflet.timedimension.control.js') }}"></script>
+     <script type="text/javascript" src="{{ url_for('static', filename='td/leaflet.timedimension.tilelayer.portus.js') }}"></script>
+
+     <script type="text/javascript" src="{{ url_for('static', filename='td/baselayers.js') }}"></script>
+     <script type="text/javascript" src="{{ url_for('static', filename='td/json_td.js') }}"></script>
+
+     <!-- <script type="text/javascript" src="td/baselayers.js"></script>
+     <script type="text/javascript" src="td/json_td.js"></script> -->
+     <!-- <script type="text/javascript" src="td/ohl.js"></script> -->
+
+
+
+  
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+  
+    <script type="text/javascript">
+    var oReq = new XMLHttpRequest();
+    oReq.addEventListener("load", (function(xhr) {
+                  var code = xhr.currentTarget.response;
+                  var codeBlock = document.getElementById("code");
+                  codeBlock.textContent = code;
+                  hljs.highlightBlock(codeBlock);
+              }));
+      oReq.open("GET", "{{ url_for('static', filename='MapJS/maptd.js') }}");
+      
+      oReq.send();
+      /**
+  Tree view sidebar
+  */	
+  var toggler = document.getElementsByClassName("caret");
+  var i;
+  
+  for (i = 0; i < toggler.length; i++) {
+    toggler[i].addEventListener("click", function() {
+      this.parentElement.querySelector(".nested").classList.toggle("active");
+      this.classList.toggle("caret-down");
+    });
+  }
+      
+
+    </script>
+  
+
+</div>
+
+
+
+</html>
+

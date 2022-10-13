@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<data_POIs>
+    <POI name="Unit/Tower/Panel 257" POI_Type="Wind_Tower/Solar_Panel/Load_Feeder???/OHL_Tower" Up_Aggregation_Level_Type= "WindPark/SolarPark/OHL/Zone/TSO/DSO/BRP/RSC/LocalCommunity/Custom" Up_Aggregation_Level_Name= "WindPark/SolarPark/OHL/Zone/TSO/DSO/BRP/RSC/LocalCommunity/Custom" id="">
+        <OHLTowerTechID>12345678</OHLTowerTechID>
+        <WindTurbineTechID>12345678</WindTurbineTechID>
+        <SolarPanelTechID>12345678</SolarPanelTechID>
+        <WeatherForecastTimeSeriesID>12345678<WeatherForecastTimeSeriesID>
+        <EnergyForecastTimeSeriesID>12345678<EnergyForecastTimeSeriesID>
+        <Longitude>21.29234</Longitude>
+        <Latitude>37.334563</Latitude>
+        <Altitude>350m</Altitude>
+    </POI>
+</data_POIs>

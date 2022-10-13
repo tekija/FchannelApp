@@ -1,0 +1,238 @@
+{% extends 'layouts/base.html' %}
+
+{% block title %} GeoMap Greece {% endblock title %}
+
+<!-- Specific CSS goes HERE -->
+{% block stylesheets %}  <link rel="stylesheet" href="{{ url_for('static', filename='LeafletJS/leaflet.css') }}"></script>
+<link rel="stylesheet" href="{{ url_for('static', filename='OpenWeatherJS/leaflet-openweathermap.css') }}"></script>
+<link rel="stylesheet" href="{{ url_for('static', filename='MapJS/maptd.css') }}"></script>
+<!-- <script type="text/javascript" src="{{ url_for('static', filename='leaflet.timedimension.control.css') }}"></script> -->
+<slink rel="stylesheet" href="{{ url_for('static', filename='MapJS/MarkerCluster.Default.css') }}"></script>
+<!-- <script type="text/javascript" src="{{ url_for('static', filename='MapJS/MarkerCluster') }}"></script> -->
+
+<link rel="SHORTCUT ICON" HREF="Europan_icon.ico">
+<!-- <link rel="stylesheet" type="text/css" href="LeafletJS/leaflet.css" /> -->
+<!-- <link rel="stylesheet" type="text/css" href="OpenWeatherJS/leaflet-openweathermap.css" />
+<link rel="stylesheet" type="text/css" href="MapJS/maptd.css" />
+<link rel="stylesheet" href="leaflet.timedimension.control.css" />
+<link rel="stylesheet" href="MapJS/MarkerCluster.Default.css" />
+<link rel="stylesheet" href="MapJS/MarkerCluster" /> -->
+
+
+<script type="text/javascript" src="{{ url_for('static', filename='LeafletJS/leaflet.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='LeafletJS/Permalink.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='LeafletJS/Permalink.Layer.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='LeafletJS/Permalink.Overlay.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='OpenWeatherJS/leaflet-openweathermap.js') }}"></script>
+<link rel="stylesheet" href="{{ url_for('static', filename='LeafletJS/leaflet-languageselector.css') }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='LeafletJS/leaflet-languageselector.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='MapJS/map_i18n.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='MapJS/baselayers-gs.js') }}"></script>
+
+<!-- <script src="LeafletJS/leaflet.js"></script> -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/leaflet.nontiledlayer@1.0.7/dist/NonTiledLayer.js"></script>
+<!-- <script src="LeafletJS/Permalink.js"></script> -->
+<!-- <script src="LeafletJS/Permalink.Layer.js"></script> -->
+<!-- <script src="LeafletJS/Permalink.Overlay.js"></script> -->
+<!-- <script src="OpenWeatherJS/leaflet-openweathermap.js"></script> -->
+<!-- <link rel="stylesheet" type="text/css" href="LeafletJS/leaflet-languageselector.css" /> -->
+<!-- <script src="LeafletJS/leaflet-languageselector.js"></script> -->
+<!-- <script src="MapJS/map_i18n.js"></script> -->
+<script type="text/javascript" src="{{ url_for('static', filename='MapJS/mapdata.js') }}"></script>
+
+<!-- <script src="MapJS/mapdata.js"></script> -->
+<!-- <script src="MapJS/baselayers-gs.js"></script> -->
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.css"/>
+<script src="https://cdn.jsdelivr.net/npm/leaflet-polylineoffset@1.1.1/leaflet.polylineoffset.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css"/>
+
+<script src="https://rawcdn.githack.com/ardhi/Leaflet.MousePosition/c32f1c84/src/L.Control.MousePosition.js"></script>
+<link rel="stylesheet" href="https://rawcdn.githack.com/ardhi/Leaflet.MousePosition/c32f1c84/src/L.Control.MousePosition.css"/>
+<script src="https://rawcdn.githack.com/ljagis/leaflet-measure/2.1.7/dist/leaflet-measure.js"></script>
+<link rel="stylesheet" href="https://rawcdn.githack.com/ljagis/leaflet-measure/2.1.7/dist/leaflet-measure.css"/>
+<script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+<script type="text/javascript" src="{{ url_for('static', filename='MapJS/sql-wasm.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='MapJS/leaflet.markercluster-src.js') }}"></script>
+
+<!-- <script src='MapJS/sql-wasm.js'></script>
+<script src='MapJS/leaflet.markercluster-src.js'></script> -->
+
+
+
+<!-- Load an icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
+<style>
+a.leaflet-control-timecontrol.timecontrol-date {
+    width: 120px;
+    padding-left: 30px !important;
+    font-weight: bold;
+}
+.leaflet-touch .timecontrol-slider .slider {
+    margin-top: 14px;
+}
+.timecontrol-slider .slider {
+    margin-left: 10px;
+    height: 2px;
+    border-color: #000;
+}
+.timecontrol-slider .knob {
+    width: 14px;
+    height: 14px;
+    border-radius: 7px;
+    margin-top: -7px;
+    margin-left: -12px;
+    border: 0px;
+    background-color: #000;
+}
+.sidebar {
+height: 100%; /* 100% Full-height */
+width: 0; /* 0 width - change this with JavaScript */
+position: fixed; /* Stay in place */
+z-index: 1; /* Stay on top */
+top: 0;
+left: 0;
+background-color: #111; /* Black*/
+overflow-x: hidden; /* Disable horizontal scroll */
+padding-top: 60px; /* Place content 60px from the top */
+transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+}
+.sidebar .closebtn {
+position: absolute;
+top: 0;
+right: 25px;
+font-size: 36px;
+margin-left: 50px;
+}
+.openbtn {
+font-size: 20px;
+cursor: pointer;
+background-color: #111;
+color: white;
+padding: 10px 15px;
+border: none;
+}
+
+.openbtn:hover {
+background-color: #444;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+.sidebar {padding-top: 15px;}
+.sidebar a {font-size: 18px;}
+} 
+
+</style>
+
+<!-- <script type="text/javascript" src="{{ url_for('static', filename='td/baselayers.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='td/json_td.js') }}"></script> -->
+
+{% endblock stylesheets %}
+
+{% block content %}
+
+<div id="main">
+  
+    <!-- <button class="openbtn" onclick="openNav()">Open Sidebar</button> -->
+    <label id="label_home" style="color:rgb(42, 53, 38);font-size:14px ; border: 0px solid rgb(75, 226, 29)"></label>
+    <label id="label_updated" style="color:rgb(42, 53, 38);font-size:14px ; border: 0px solid rgb(75, 226, 29)"></label>
+    <label id="label_UCT" style="color:rgb(42, 53, 38);font-size:14px ; border: 0px solid rgb(75, 226, 29)"> all times UTC</label>
+    
+    
+     <div class='custom-popup' id='map'></div>
+    <!-- <script src="MapJS/maptd.js"></script> -->
+    <!-- <script src="MapJS/functions.js"></script> -->
+    <script type="text/javascript" src="{{ url_for('static', filename='MapJS/functions.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='MapJS/maptd.js') }}"></script>
+
+    <script src= 
+    "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> 
+        </script> 
+       <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.fullscreen/1.4.2/Control.FullScreen.min.js"></script>
+     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/leaflet.nontiledlayer@1.0.7/dist/NonTiledLayer.js"></script>
+     <script type="text/javascript" src="https://stamen-maps.a.ssl.fastly.net/js/tile.stamen.js"></script> -->
+     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/dateformat@3.0.3/lib/dateformat.js"></script>
+     <!-- <script type="text/javascript" src="td/heatmap.js"></script> -->
+     <script type="text/javascript" src="{{ url_for('static', filename='td/heatmap.js') }}"></script>
+
+     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/leaflet-heatmap@1.0.0/leaflet-heatmap.min.js"></script>
+     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/iso8601-js-period@0.2.1/iso8601.min.js"></script>
+     <script type="text/javascript" src="{{ url_for('static', filename='td/leaflet.timedimension.js') }}"></script>
+     <script type="text/javascript" src="{{ url_for('static', filename='td/leaflet.timedimension.util.js') }}"></script>
+     <script type="text/javascript" src="{{ url_for('static', filename='td/leaflet.timedimension.layer.js') }}"></script>
+     <script type="text/javascript" src="{{ url_for('static', filename='td/leaflet.timedimension.layer.wms.js') }}"></script>
+     <script type="text/javascript" src="{{ url_for('static', filename='td/leaflet.timedimension.layer.geojson.js') }}"></script>
+     <script type="text/javascript" src="{{ url_for('static', filename='td/leaflet.timedimension.player.js') }}"></script>
+     <script type="text/javascript" src="{{ url_for('static', filename='td/leaflet.timedimension.control.js') }}"></script>
+     <script type="text/javascript" src="{{ url_for('static', filename='td/leaflet.timedimension.tilelayer.portus.js') }}"></script>
+
+     <!-- <script type="text/javascript" src="td/baselayers.js"></script>
+     <script type="text/javascript" src="td/json_td.js"></script> -->
+     <!-- <script type="text/javascript" src="td/ohl.js"></script> -->
+    </div>
+
+
+
+
+
+  
+
+
+
+
+
+    {% include "includes/footer.html" %}
+ 
+
+{% endblock content %}
+
+<!-- Specific JS goes HERE --> 
+{% block javascripts %}
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+<script type="text/javascript">
+var oReq = new XMLHttpRequest();
+oReq.addEventListener("load", (function(xhr) {
+              var code = xhr.currentTarget.response;
+              var codeBlock = document.getElementById("code");
+              codeBlock.textContent = code;
+              hljs.highlightBlock(codeBlock);
+          }));
+  oReq.open("GET", "{{ url_for('static', filename='MapJS/maptd.js') }}");
+  
+  oReq.send();
+  /**
+Tree view sidebar
+*/	
+var toggler = document.getElementsByClassName("caret");
+var i;
+
+for (i = 0; i < toggler.length; i++) {
+toggler[i].addEventListener("click", function() {
+  this.parentElement.querySelector(".nested").classList.toggle("active");
+  this.classList.toggle("caret-down");
+});
+}
+  
+
+</script>
+
+  <script>
+    var win = navigator.platform.indexOf('Win') > -1;
+    if (win && document.querySelector('#sidenav-scrollbar')) {
+      var options = {
+        damping: '0.5'
+      }
+      Scrollbar.init(document.querySelector('#sidenav-scrollbar'), options);
+    }
+  </script>
+
+{% endblock javascripts %}

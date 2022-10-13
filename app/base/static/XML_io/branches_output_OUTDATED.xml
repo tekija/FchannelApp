@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<data_branches_output>
+    <Branch SS1="Bitola" SS2="Elbasan" country1="AL" country2="MK" NominalVoltage="400" ID="12345678">
+        <OHLType>AC</OHLType>
+        <ThermalLimit_summer>1050</ThermalLimit_summer>
+        <ThermalLimit_winter>21.29234</ThermalLimit_winter>
+        <Latitude>37.334563</Latitude>
+        <Altitude>350m</Altitude>
+        <GPS SS1="SS Wind Park1" SS2="Athens 45" voltage="400"/>
+        <OHL SS1="SS Wind Park1" SS2="Athens 1" voltage="110"/>
+        <OHL SS1="SS Wind Park1" SS2="Athens 3" voltage="110"/>
+        <wWindSpeed>23 km/h</wWindSpeed>
+        <wSolarRadiation>1900 Lux</wSolarRadiation>
+        <wTemperature>34 C</wTemperature>
+        <wCloudiness>25%</wCloudiness>
+        <wPrecipitations>30%</wPrecipitations>
+        <wInflows>2400 l/h</wInflows>
+        <wIceAlarm>NO</wIceAlarm>
+        <wStormsAlarm>NO</wStormsAlarm>
+    </Branch>
+    <Branch name="Wind Park 2" ID="12345671">
+        <GenerationType>Wind Park</GenerationType>
+        <InstalledCapacity>350 MW</InstalledCapacity>
+        <Longitude>21.39234</Longitude>
+        <Latitude>37.434563</Latitude>
+        <Altitude>40m</Altitude>
+        <OHL SS1="SS Wind Park2" SS2="Athens5" voltage="400"/>
+        <OHL SS1="SS Wind Park2" SS2="Athens 1" voltage="110"/>
+        <OHL SS1="SS Wind Park2" SS2="Athens 4" voltage="110"/>
+        <wWindSpeed>28 km/h</wWindSpeed>
+        <wSolarRadiation>1900 Lux</wSolarRadiation>
+        <wTemperature>34 C</wTemperature>
+        <wCloudiness>25%</wCloudiness>
+        <wPrecipitations>30%</wPrecipitations>
+        <wInflows>1200 l/h</wInflows>
+        <wIceAlarm>NO</wIceAlarm>
+        <wStormsAlarm>NO</wStormsAlarm>
+    </Branch>
+    <Branch name="Wind Park 3" ID="12345672">
+        <GenerationType>Wind Park</GenerationType>
+        <InstalledCapacity>450 MW</InstalledCapacity>
+        <Longitude>21.59234</Longitude>
+        <Latitude>37.634563</Latitude>
+        <Altitude>550m</Altitude>
+        <OHL SS1="Wind Park3 SS" SS2="Athens 45" voltage="400"/>
+        <OHL SS1="Wind Park3 SS" SS2="Athens 1" voltage="110"/>
+        <OHL SS1="Wind Park3 SS" SS2="Athens 5" voltage="110"/>
+        <wWindSpeed>28 km/h</wWindSpeed>
+        <wSolarRadiation>1600 Lux</wSolarRadiation>
+        <wTemperature>34 C</wTemperature>
+        <wCloudiness>25%</wCloudiness>
+        <wPrecipitations>30%</wPrecipitations>
+        <wInflows>2100 l/h</wInflows>
+        <wIceAlarm>NO</wIceAlarm>
+        <wStormsAlarm>NO</wStormsAlarm>
+    </Branch>
+        <Branch name="Wind Park 4" ID="12345673">
+        <GenerationType>Wind Park</GenerationType>
+        <InstalledCapacity>550 MW</InstalledCapacity>
+        <Longitude>21.79234</Longitude>
+        <Latitude>37.834563</Latitude>
+        <Altitude>750m</Altitude>
+        <OHL SS1="Wind Park4 SS" SS2="Athens 45" voltage="400"/>
+        <OHL SS1="Wind Park4 SS" SS2="Athens 5" voltage="110"/>
+        <OHL SS1="Wind Park4 SS" SS2="Athens 3" voltage="110"/>
+        <wWindSpeed>23 km/h</wWindSpeed>
+        <wSolarRadiation>1800 Lux</wSolarRadiation>
+        <wTemperature>34 C</wTemperature>
+        <wCloudiness>28%</wCloudiness>
+        <wPrecipitations>32%</wPrecipitations>
+        <wInflows>2400 l/h</wInflows>
+        <wIceAlarm>NO</wIceAlarm>
+        <wStormsAlarm>NO</wStormsAlarm>
+    </Branch>
+        <Branch name="Wind Park 5" ID="12345674">
+        <GenerationType>Wind Park</GenerationType>
+        <InstalledCapacity>650 MW</InstalledCapacity>
+        <Longitude>22.19234</Longitude>
+        <Latitude>38.234563</Latitude>
+        <Altitude>250m</Altitude>
+        <OHL SS1="Wind Park5 SS" SS2="Athens 45" voltage="400"/>
+        <OHL SS1="Wind Park5 SS" SS2="Athens 1" voltage="110"/>
+        <OHL SS1="Wind Park5 SS" SS2="Athens 5" voltage="110"/>
+        <wWindSpeed>27 km/h</wWindSpeed>
+        <wSolarRadiation>1900 Lux</wSolarRadiation>
+        <wTemperature>36 C</wTemperature>
+        <wCloudiness>25%</wCloudiness>
+        <wPrecipitations>31%</wPrecipitations>
+        <wInflows>2200 l/h</wInflows>
+        <wIceAlarm>NO</wIceAlarm>
+        <wStormsAlarm>NO</wStormsAlarm>
+    </Branch>
+</data_branches_output>

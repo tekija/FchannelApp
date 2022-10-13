@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<data_POIs>
+    <POI name="Unit/Tower/Panel 257" Aggregation_Level_Code="Wind_Tower/Solar_Panel/Load_Feeder/OHL_Tower" Up_Aggregation_Level_Code= "WindPark/SolarPark/OHL/Zone/TSO/DSO/BRP/RSC/LocalCommunity/Custom" id="">
+        <PowerCurveFile>Wind Park</PowerCurveFile>
+        <InstalledCapacity>250 MW</InstalledCapacity>
+        <Longitude>21.29234</Longitude>
+        <Latitude>37.334563</Latitude>
+        <Altitude>350m</Altitude>
+        <Unit-Tower Longitude="46.3065883" Latitude="20.1280291" Altitude="275"/>
+        <Unit-Tower SS1="SS Wind Park1" SS2="Athens 1" voltage="110"/>
+        <Unit-Tower SS1="SS Wind Park1" SS2="Athens 3" voltage="110"/>
+        <wWindSpeed>23 km/h</wWindSpeed>
+        <wSolarRadiation>1900 Lux</wSolarRadiation>
+        <wTemperature>34 C</wTemperature>
+        <wCloudiness>25%</wCloudiness>
+        <wPrecipitations>30%</wPrecipitations>
+        <wInflows>2400 l/h</wInflows>
+        <wIceAlarm>NO</wIceAlarm>
+        <wStormAlarm>NO</wStormAlarm>
+    </POI>
+</data_POIs>
